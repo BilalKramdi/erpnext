@@ -57006,3 +57006,3010 @@ msgstr "{} {} est déjà associé à {} {}"
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:385
 msgid "{} {} is not affecting bank account {}"
 msgstr "{} {} n'affecte pas le compte bancaire {}"
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1591
+msgid ""
+"\n"
+"\t\t\tThe Batch {0} of an item {1} has negative stock in the warehouse {2}{3}.\n"
+"\t\t\tPlease add a stock quantity of {4} to proceed with this entry.\n"
+"\t\t\tIf it is not possible to make an adjustment entry, please enable 'Allow Negative Stock for Batch' in Stock Settings to proceed.\n"
+"\t\t\tHowever, enabling this setting may lead to negative stock in the system.\n"
+"\t\t\tSo please ensure the stock levels are adjusted as soon as possible to maintain the correct valuation rate."
+msgstr "\n\t\t\tLe lot {0} d'un article {1} présente un stock négatif dans l'entrepôt {2}{3}.\n\t\t\tVeuillez ajouter une quantité de stock de {4} pour continuer avec cette écriture.\n\t\t\tS'il n'est pas possible de créer une écriture d'ajustement, veuillez activer « Autoriser le stock négatif pour les lots » dans les paramètres de stock pour continuer.\n\t\t\tCependant, l'activation de ce paramètre peut entraîner un stock négatif dans le système.\n\t\t\tVeuillez donc vous assurer que les niveaux de stock sont ajustés dès que possible afin de conserver un taux de valorisation correct."
+
+#. Label of the cost_allocation_per (Percent) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "% Cost Allocation"
+msgstr "Allocation des coûts (%)"
+
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1338
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1339
+msgid "<0"
+msgstr "<0"
+
+#: erpnext/accounts/notification/notification_for_new_fiscal_year/notification_for_new_fiscal_year.html:3
+msgid "A new fiscal year has been automatically created."
+msgstr "Un nouvel exercice fiscal a été créé automatiquement."
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:88
+msgid "ALL records will be deleted (entire DocType cleared)"
+msgstr "TOUS les enregistrements seront supprimés (type de document entier vidé)"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/financial_reports.json
+msgid "AP Summary"
+msgstr "Résumé des comptes fournisseurs"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/financial_reports.json
+msgid "AR Summary"
+msgstr "Résumé des comptes clients"
+
+#. Title of the Module Onboarding 'Accounting Onboarding'
+#: erpnext/accounts/module_onboarding/accounting_onboarding/accounting_onboarding.json
+msgid "Accounting Onboarding"
+msgstr "Parcours de configuration de la comptabilité"
+
+#. Label of a Desktop Icon
+#. Title of a Workspace Sidebar
+#: erpnext/desktop_icon/accounts_setup.json
+#: erpnext/workspace_sidebar/accounts_setup.json
+msgid "Accounts Setup"
+msgstr "Configuration des comptes"
+
+#. Label of the maintain_same_rate_action (Select) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Action if same rate is not maintained throughout sales cycle"
+msgstr "Action si le même taux n'est pas maintenu tout au long du cycle de vente"
+
+#. Label of the enable_serial_and_batch_no_for_item (Check) field in DocType
+#. 'Stock Settings'
+#: erpnext/stock/doctype/item/item.js:413
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Activate Serial / Batch No for Item"
+msgstr "Activer le n° de série / lot pour l'article"
+
+#: erpnext/projects/doctype/task/task_tree.js:42
+msgid "Add Multiple"
+msgstr "Ajouter plusieurs"
+
+#: erpnext/public/js/utils/naming_series_dialog.js:26
+msgid "Add Series Prefix"
+msgstr "Ajouter un préfixe de série"
+
+#: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:119
+msgid "Add vouchers to generate preview."
+msgstr "Ajoutez des pièces justificatives pour générer l’aperçu."
+
+#. Option for the 'Type' (Select) field in DocType 'BOM Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Job Card Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Stock Entry Detail'
+#. Option for the 'Type' (Select) field in DocType 'Subcontracting Inward Order
+#. Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Subcontracting Receipt
+#. Item'
+#: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json
+#: erpnext/manufacturing/doctype/job_card_secondary_item/job_card_secondary_item.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_secondary_item/subcontracting_inward_order_secondary_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Additional Finished Good"
+msgstr "Produit fini supplémentaire"
+
+#. Label of the advance_paid (Currency) field in DocType 'Purchase Order'
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+msgid "Advance Paid (Company Currency)"
+msgstr "Avance payée (devise de la société)"
+
+#. Label of the advanced_features_tab (Tab Break) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Advanced Features"
+msgstr "Fonctionnalités avancées"
+
+#: erpnext/stock/doctype/stock_settings/stock_settings.js:20
+msgid "After save, please refresh the page to apply the changes."
+msgstr "Après l’enregistrement, veuillez actualiser la page pour appliquer les modifications."
+
+#. Label of the allow_negative_stock_for_batch (Check) field in DocType 'Stock
+#. Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Allow Negative Stock for Batch"
+msgstr "Autoriser le stock négatif pour les lots"
+
+#. Label of the allow_zero_qty_in_quotation (Check) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Allow Quotation with zero quantity"
+msgstr "Autoriser les devis avec une quantité à zéro"
+
+#. Label of the allow_sales_order_creation_for_expired_quotation (Check) field
+#. in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Allow Sales Order creation for expired Quotation"
+msgstr "Autoriser la création de commandes client pour les devis expirés"
+
+#. Label of the allow_zero_qty_in_sales_order (Check) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Allow Sales Order with zero quantity"
+msgstr "Autoriser les commandes client avec une quantité à zéro"
+
+#. Label of the allow_delivery_of_overproduced_qty (Check) field in DocType
+#. 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Allow delivery of overproduced quantity"
+msgstr "Autoriser la livraison des quantités surproduites"
+
+#. Label of the editable_price_list_rate (Check) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Allow editing Price List rate in transactions"
+msgstr "Autoriser la modification du prix de la liste de prix dans les transactions"
+
+#. Label of the allow_against_multiple_purchase_orders (Check) field in DocType
+#. 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Allow multiple Sales Orders against a customer's Purchase Order"
+msgstr "Autoriser plusieurs commandes client par rapport à la commande d'achat d'un client"
+
+#. Label of the allow_negative_rates_for_items (Check) field in DocType
+#. 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Allow negative rates for Items"
+msgstr "Autoriser les prix négatifs pour les articles"
+
+#. Description of the 'Zero-Quantity Line Items' (Section Break) field in
+#. DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Allow sales transactions with zero quantities if the rate is fixed but the quantities are not. e.g. Rate Contracts"
+msgstr "Autoriser les transactions de vente avec des quantités nulles si les prix sont fixes, mais pas les quantités, par ex. : les contrats de taux"
+
+#. Label of the allow_multiple_items (Check) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Allow same Item to be added multiple times in a transaction"
+msgstr "Autoriser l'ajout d'un article plusieurs fois dans une transaction"
+
+#: erpnext/public/js/utils/naming_series_dialog.js:81
+msgid "Allowed special characters are '/' and '-'"
+msgstr "Les caractères spéciaux autorisés sont '/' et '-'"
+
+#. Label of the analytics_section (Section Break) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Analytical Accounting"
+msgstr "Comptabilité analytique"
+
+#. Description of the 'Enable Discounts and Margin' (Check) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Apply discounts and margins on products"
+msgstr "Appliquer des remises et des marges aux produits"
+
+#. Label of the asset_type (Select) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Asset Type"
+msgstr "Type d'actif"
+
+#. Title of the Module Onboarding 'Asset Onboarding'
+#: erpnext/assets/module_onboarding/asset_onboarding/asset_onboarding.json
+msgid "Assets Setup"
+msgstr "Paramétrage des actifs"
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1436
+msgid "At Row {0}: In Serial and Batch Bundle {1} must have docstatus as 1 and not 0"
+msgstr "À la ligne {0} : l’ensemble de n° de série et lot {1} doit avoir un statut de document égal à 1 et non à 0"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:324
+msgid "At least one raw material item must be present in the stock entry for the type {0}"
+msgstr "Au moins un article de matière première doit être présent dans l'écriture de stock pour le type {0}"
+
+#: erpnext/setup/doctype/employee/employee.py:170
+msgid "Auto User Creation Error"
+msgstr "Erreur de création automatique d'utilisateur"
+
+#. Label of the automatically_fetch_payment_terms (Check) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Automatically Fetch Payment Terms from Order/Quotation"
+msgstr "Récupération automatique des termes de paiement depuis la commande/le devis"
+
+#. Label of the available__future_inventory_section (Section Break) field in
+#. DocType 'Bin'
+#: erpnext/stock/doctype/bin/bin.json
+msgid "Available / Future Inventory"
+msgstr "Inventaire disponible / futur"
+
+#. Label of the available_for_use_date (Date) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Available for Use Date"
+msgstr "Date d’utilisation disponible"
+
+#. Label of a number card in the Selling Workspace
+#: erpnext/selling/workspace/selling/selling.json
+msgid "Average Order Value"
+msgstr "Valeur moyenne de la commande"
+
+#. Label of the bom_conf_tab (Tab Break) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "BOM Configuration"
+msgstr "Configuration de la nomenclature"
+
+#. Name of a DocType
+#. Label of the bom_secondary_item (Data) field in DocType 'Stock Entry Detail'
+#: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+msgid "BOM Secondary Item"
+msgstr "Article secondaire de la nomenclature"
+
+#. Label of the bom_secondary_item (Data) field in DocType 'Job Card Secondary
+#. Item'
+#: erpnext/manufacturing/doctype/job_card_secondary_item/job_card_secondary_item.json
+msgid "BOM Secondary Item Reference"
+msgstr "Référence de l’article secondaire de la nomenclature"
+
+#. Name of a report
+#: erpnext/manufacturing/report/bom_stock_analysis/bom_stock_analysis.json
+msgid "BOM Stock Analysis"
+msgstr "Analyse du stock de la nomenclature"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:2448
+msgid "BOM and Finished Good Quantity is mandatory for Disassembly"
+msgstr "La nomenclature et la quantité de produit fini sont obligatoires pour le désassemblage"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/banking.json
+msgid "Bank Reconciliation"
+msgstr "Rapprochement bancaire"
+
+#. Label of the base_cost (Currency) field in DocType 'BOM Secondary Item'
+#: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json
+msgid "Base Cost (Company Currency)"
+msgstr "Coût de base (devise de la société)"
+
+#. Label of the withholding_amount (Currency) field in DocType 'Tax Withholding
+#. Entry'
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Base Tax Withheld"
+msgstr "Taxe de base retenue"
+
+#. Label of the taxable_amount (Currency) field in DocType 'Tax Withholding
+#. Entry'
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Base Taxable Amount"
+msgstr "Montant de base taxable"
+
+#. Label of the blanket_orders_section (Section Break) field in DocType
+#. 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Blanket Orders"
+msgstr "Commandes avec limites"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/budget.json
+msgid "Budget Variance"
+msgstr "Écart budgétaire"
+
+#. Title of the Module Onboarding 'Buying Onboarding'
+#: erpnext/buying/module_onboarding/buying_onboarding/buying_onboarding.json
+msgid "Buying Setup"
+msgstr "Configuration des achats"
+
+#. Option for the 'Type' (Select) field in DocType 'BOM Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Job Card Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Stock Entry Detail'
+#. Option for the 'Type' (Select) field in DocType 'Subcontracting Inward Order
+#. Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Subcontracting Receipt
+#. Item'
+#: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json
+#: erpnext/manufacturing/doctype/job_card_secondary_item/job_card_secondary_item.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_secondary_item/subcontracting_inward_order_secondary_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "By-Product"
+msgstr "Sous-produit"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/accounts_setup.json
+msgid "COA Importer"
+msgstr "Importateur de plans de comptes"
+
+#. Label of the editable_bundle_item_rates (Check) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Calculate Product Bundle price based on child Item's rates"
+msgstr "Calculer le prix de l’ensemble de produits en fonction des tarifs des articles enfants"
+
+#: erpnext/crm/doctype/email_campaign/email_campaign.py:113
+msgid "Campaign {0} not found"
+msgstr "Campagne {0} introuvable"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:204
+msgid "Cannot add child table {0} to deletion list. Child tables are automatically deleted with their parent DocTypes."
+msgstr "Impossible d’ajouter la table enfant {0} à la liste de suppression. Les tables enfants sont automatiquement supprimées avec leurs types de documents parents."
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:579
+msgid "Cannot cancel this document as it is linked with the submitted Asset Value Adjustment <b>{0}</b>. Please cancel the Asset Value Adjustment to continue."
+msgstr "Impossible d’annuler ce document car il est lié à l’ajustement de la valeur de l’actif validé <b>{0}</b>. Veuillez annuler l’ajustement de la valeur de l’actif pour continuer."
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:197
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:782
+msgid "Cannot delete protected core DocType: {0}"
+msgstr "Impossible de supprimer le type de document principal protégé : {0}"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:213
+msgid "Cannot delete virtual DocType: {0}. Virtual DocTypes do not have database tables."
+msgstr "Impossible de supprimer le type de document virtuel : {0}. Les types de documents virtuels ne disposent pas de tables de base de données."
+
+#: erpnext/stock/doctype/stock_settings/stock_settings.py:146
+msgid "Cannot disable Serial and Batch No for Item, as there are existing records for serial / batch."
+msgstr "Impossible de désactiver le suivi par numéro de série et lot pour l’article, car des enregistrements de numéro de série / lot existent déjà."
+
+#: erpnext/stock/doctype/stock_settings/stock_settings.py:127
+msgid "Cannot disable {0} as it may lead to incorrect stock valuation."
+msgstr "Impossible de désactiver {0}, car cela peut entraîner une valorisation incorrecte du stock."
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:924
+msgid "Cannot disassemble {0} qty against Stock Entry {1}. Only {2} qty available to disassemble."
+msgstr "Impossible de désassembler la quantité {0} pour l’écriture de stock {1}. Seule la quantité {2} est disponible pour le désassemblage."
+
+#: erpnext/accounts/doctype/payment_request/payment_request.js:111
+msgid "Cannot fetch selected rows for submitted Payment Request"
+msgstr "Impossible de récupérer les lignes sélectionnées pour une requête de paiement validée."
+
+#: erpnext/accounts/party.py:1063
+msgid "Cannot merge {0} '{1}' into '{2}' as both have existing accounting entries in different currencies for company '{3}'."
+msgstr "Impossible de fusionner {0} « {1} » dans « {2} », car les deux possèdent déjà des écritures comptables dans des devises différentes pour la société « {3} »."
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:577
+msgid "Cannot produce more Item {0} than Sales Order quantity {1} {2}"
+msgstr "Impossible de produire plus de l’article {0} que la quantité {1} {2} de la commande client."
+
+#: erpnext/selling/doctype/customer/customer.py:367
+msgid "Cannot select a Group type Customer Group. Please select a non-group Customer Group."
+msgstr "Impossible de sélectionner un groupe de clients de type Groupe. Veuillez sélectionner un groupe de clients qui ne soit pas un groupe."
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:266
+msgid "Cannot start deletion. Another deletion {0} is already queued/running. Please wait for it to complete."
+msgstr "Impossible de lancer la suppression. Une autre suppression {0} est déjà en file d’attente ou en cours d’exécution. Veuillez attendre qu’elle soit terminée."
+
+#: erpnext/controllers/accounts_controller.py:3932
+msgid "Cannot update rate as item {0} is already ordered or purchased against this quotation"
+msgstr "Impossible de mettre à jour le taux, car l’article {0} a déjà été commandé ou acheté dans le cadre de ce devis."
+
+#. Description of the 'Not Applicable' (Check) field in DocType 'Item Tax
+#. Template Detail'
+#: erpnext/accounts/doctype/item_tax_template_detail/item_tax_template_detail.json
+#, no-python-format
+msgid "Check if this tax is not applicable to items (distinct from 0% rate)"
+msgstr "Vérifiez si cette taxe ne s’applique pas aux articles (à distinguer d’un taux de 0 %)."
+
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.py:58
+msgid "Check row {0} for account {1}: Party Type is only allowed for Receivable or Payable accounts"
+msgstr "Vérifiez la ligne {0} pour le compte {1} : le type de tiers n’est autorisé que pour les comptes débiteurs ou créditeurs."
+
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.py:65
+msgid "Check row {0} for account {1}: Party is only allowed if Party Type is set"
+msgstr "Vérifiez la ligne {0} pour le compte {1} : le tiers n’est autorisé que si le type de tiers est défini."
+
+#. Label of the child_doctypes (Small Text) field in DocType 'Transaction
+#. Deletion Record To Delete'
+#: erpnext/setup/doctype/transaction_deletion_record_to_delete/transaction_deletion_record_to_delete.json
+msgid "Child DocTypes"
+msgstr "Types de documents enfants"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:207
+msgid "Child Table Not Allowed"
+msgstr "Table enfant non autorisée"
+
+#. Description of the 'Child DocTypes' (Small Text) field in DocType
+#. 'Transaction Deletion Record To Delete'
+#: erpnext/setup/doctype/transaction_deletion_record_to_delete/transaction_deletion_record_to_delete.json
+msgid "Child tables that will also be deleted"
+msgstr "Tables enfants qui seront également supprimées"
+
+#: erpnext/public/js/utils/barcode_scanner.js:493
+msgid "Clear Last Scanned Warehouse"
+msgstr "Effacer le dernier entrepôt scanné"
+
+#: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:158
+#: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:173
+msgid "Clearance date changed from {0} to {1} via Bank Clearance Tool"
+msgstr "Date de compensation modifiée de {0} à {1} via l’outil de liquidation bancaire"
+
+#. Option for the 'Type' (Select) field in DocType 'BOM Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Job Card Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Stock Entry Detail'
+#. Option for the 'Type' (Select) field in DocType 'Subcontracting Inward Order
+#. Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Subcontracting Receipt
+#. Item'
+#: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json
+#: erpnext/manufacturing/doctype/job_card_secondary_item/job_card_secondary_item.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_secondary_item/subcontracting_inward_order_secondary_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Co-Product"
+msgstr "Coproduit"
+
+#: erpnext/public/js/utils/naming_series_dialog.js:101
+msgid "Company Abbreviation (requires ERPNext to be installed)"
+msgstr "Abréviation de la société (ERPNext doit être installé)"
+
+#: erpnext/accounts/doctype/bank_account/bank_account.py:63
+msgid "Company Account is mandatory"
+msgstr "Le compte d'entreprise est obligatoire"
+
+#: erpnext/controllers/accounts_controller.py:4370
+msgid "Company Address is missing. You don't have permission to create an Address. Please contact your System Manager."
+msgstr "L'adresse de la société est manquante. Vous n'avez pas l'autorisation de créer une adresse. Veuillez contacter votre administrateur système."
+
+#. Label of the company_field (Data) field in DocType 'Transaction Deletion
+#. Record To Delete'
+#: erpnext/setup/doctype/transaction_deletion_record_to_delete/transaction_deletion_record_to_delete.json
+msgid "Company Field"
+msgstr "Champ de société"
+
+#. Description of the 'Company Field' (Data) field in DocType 'Transaction
+#. Deletion Record To Delete'
+#: erpnext/setup/doctype/transaction_deletion_record_to_delete/transaction_deletion_record_to_delete.json
+msgid "Company link field name used for filtering (optional - leave empty to delete all records)"
+msgstr "Nom du champ de liaison de la société utilisé pour le filtrage (facultatif - laissez vide pour supprimer tous les enregistrements)"
+
+#: erpnext/setup/doctype/employee/employee.py:168
+msgid "Company or Personal Email is mandatory when 'Create User Automatically' is enabled"
+msgstr "L’adresse e-mail de la société ou l’adresse e-mail personnelle est obligatoire lorsque l’option « Créer un utilisateur automatiquement » est activée"
+
+#: erpnext/regional/doctype/south_africa_vat_settings/south_africa_vat_settings.py:33
+msgid "Company {0} is not in South Africa."
+msgstr "La société {0} n'est pas située en Afrique du Sud."
+
+#. Label of the items (Table) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Components"
+msgstr "Composants"
+
+#. Option for the 'Asset Type' (Select) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Composite Asset"
+msgstr "Actif composite"
+
+#. Option for the 'Asset Type' (Select) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Composite Component"
+msgstr "Composant d’actif composite"
+
+#. Label of an action in the Onboarding Step 'Review Chart of Accounts'
+#: erpnext/accounts/onboarding_step/chart_of_accounts/chart_of_accounts.json
+msgid "Configure Chart of Accounts"
+msgstr "Configurer le plan comptable"
+
+#. Label of the configure (Button) field in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Configure Series"
+msgstr "Configurer les séries"
+
+#. Label of the connection_tab (Tab Break) field in DocType 'Asset Repair'
+#: erpnext/assets/doctype/asset_repair/asset_repair.json
+msgid "Connection"
+msgstr "Connexion"
+
+#. Label of the apply_tds (Check) field in DocType 'Payment Entry'
+#. Label of the apply_tds (Check) field in DocType 'Purchase Invoice'
+#. Label of the apply_tds (Check) field in DocType 'Purchase Invoice Item'
+#. Label of the apply_tds (Check) field in DocType 'Sales Invoice'
+#. Label of the apply_tds (Check) field in DocType 'Sales Invoice Item'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+msgid "Consider for Tax Withholding"
+msgstr "Prendre en compte pour la retenue d'impôt"
+
+#. Label of the apply_tds (Check) field in DocType 'Journal Entry'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+msgid "Consider for Tax Withholding "
+msgstr "Prendre en compte pour la retenue d'impôt "
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/financial_reports.json
+msgid "Consolidated Report"
+msgstr "Rapport consolidé"
+
+#. Label of the consume_components_section (Section Break) field in DocType
+#. 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Consume Components"
+msgstr "Consommer les composants"
+
+#. Description of the 'Based On' (Select) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Controls how raw materials are consumed during the ‘Manufacture’ stock entry."
+msgstr "Contrôle la manière dont les matières premières sont consommées lors de l’écriture de stock « Fabrication »."
+
+#. Label of the copy_attachments_to_transaction (Check) field in DocType 'Terms
+#. and Conditions'
+#: erpnext/setup/doctype/terms_and_conditions/terms_and_conditions.json
+msgid "Copy Attachments to Transaction"
+msgstr "Copier les pièces jointes dans la transaction"
+
+#. Label of the cost_allocation (Currency) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Cost Allocation"
+msgstr "Allocation des coûts"
+
+#. Label of the cost_allocation_per (Percent) field in DocType 'BOM Secondary
+#. Item'
+#: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json
+msgid "Cost Allocation %"
+msgstr "Allocation des coûts %"
+
+#. Label of the cost_allocation__process_loss_section (Section Break) field in
+#. DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Cost Allocation / Process Loss"
+msgstr "Allocation des coûts / perte de processus"
+
+#: erpnext/manufacturing/doctype/bom/bom.py:442
+msgid "Cost allocation between finished goods and secondary items should equal 100%"
+msgstr "L’allocation des coûts entre les produits finis et les articles secondaires doit être égale à 100 %"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Create Asset Category'
+#: erpnext/assets/onboarding_step/create_asset_category/create_asset_category.json
+msgid "Create Asset Category"
+msgstr "Créer une catégorie d’actif"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Create Asset Item'
+#: erpnext/assets/onboarding_step/create_asset_item/create_asset_item.json
+msgid "Create Asset Item"
+msgstr "Créer un article immobilisé"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Create Asset Location'
+#: erpnext/assets/onboarding_step/create_asset_location/create_asset_location.json
+msgid "Create Asset Location"
+msgstr "Créer une localisation d’actif"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Create Bill of Materials'
+#: erpnext/manufacturing/onboarding_step/create_bill_of_materials/create_bill_of_materials.json
+#: erpnext/subcontracting/onboarding_step/create_bill_of_materials/create_bill_of_materials.json
+msgid "Create Bill of Materials"
+msgstr "Créer une nomenclature"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Create Customer'
+#: erpnext/selling/onboarding_step/create_customer/create_customer.json
+msgid "Create Customer"
+msgstr "Créer un client"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Create Existing Asset'
+#: erpnext/assets/onboarding_step/create_existing_asset/create_existing_asset.json
+msgid "Create Existing Asset"
+msgstr "Créer un actif existant"
+
+#. Label of an action in the Onboarding Step 'Create Finished Goods'
+#: erpnext/manufacturing/onboarding_step/create_finished_goods/create_finished_goods.json
+msgid "Create Finished Good"
+msgstr "Créer un produit fini"
+
+#. Title of an Onboarding Step
+#: erpnext/manufacturing/onboarding_step/create_finished_goods/create_finished_goods.json
+msgid "Create Finished Goods"
+msgstr "Créer des produits finis"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Create Item'
+#: erpnext/buying/onboarding_step/create_item/create_item.json
+#: erpnext/selling/onboarding_step/create_item/create_item.json
+#: erpnext/stock/onboarding_step/create_item/create_item.json
+msgid "Create Item"
+msgstr "Créer un article"
+
+#. Label of an action in the Onboarding Step 'Create Operations'
+#: erpnext/manufacturing/onboarding_step/create_operations/create_operations.json
+msgid "Create Operation"
+msgstr "Créer une opération"
+
+#. Title of an Onboarding Step
+#: erpnext/manufacturing/onboarding_step/create_operations/create_operations.json
+msgid "Create Operations"
+msgstr "Créer des opérations"
+
+#: erpnext/public/js/controllers/transaction.js:519
+msgid "Create Payment Request"
+msgstr "Créer une demande de paiement"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Create Project'
+#: erpnext/projects/onboarding_step/create_project/create_project.json
+msgid "Create Project"
+msgstr "Créer un projet"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Create Purchase Invoice'
+#: erpnext/buying/onboarding_step/create_purchase_invoice/create_purchase_invoice.json
+msgid "Create Purchase Invoice"
+msgstr "Créer une facture d’achat"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Create Purchase Receipt'
+#: erpnext/stock/onboarding_step/create_purchase_receipt/create_purchase_receipt.json
+msgid "Create Purchase Receipt"
+msgstr "Créer un reçu d’achat"
+
+#. Label of an action in the Onboarding Step 'Create Raw Materials'
+#: erpnext/manufacturing/onboarding_step/create_raw_materials/create_raw_materials.json
+#: erpnext/subcontracting/onboarding_step/create_raw_materials/create_raw_materials.json
+msgid "Create Raw Material"
+msgstr "Créer une matière première"
+
+#. Title of an Onboarding Step
+#: erpnext/manufacturing/onboarding_step/create_raw_materials/create_raw_materials.json
+#: erpnext/subcontracting/onboarding_step/create_raw_materials/create_raw_materials.json
+msgid "Create Raw Materials"
+msgstr "Créer des matières premières"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Create Service Item'
+#: erpnext/subcontracting/onboarding_step/create_service_item/create_service_item.json
+msgid "Create Service Item"
+msgstr "Créer un article de service"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Create Subcontracted Item'
+#: erpnext/subcontracting/onboarding_step/create_subcontracted_item/create_subcontracted_item.json
+msgid "Create Subcontracted Item"
+msgstr "Créer un article sous-traité"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Create Subcontracting Order'
+#: erpnext/subcontracting/onboarding_step/create_subcontracting_order/create_subcontracting_order.json
+msgid "Create Subcontracting Order"
+msgstr "Créer une commande de sous-traitance"
+
+#. Title of an Onboarding Step
+#: erpnext/subcontracting/onboarding_step/create_subcontracting_po/create_subcontracting_po.json
+msgid "Create Subcontracting PO"
+msgstr "Créer une commande d'achat en sous-traitance"
+
+#. Label of an action in the Onboarding Step 'Create Subcontracting PO'
+#: erpnext/subcontracting/onboarding_step/create_subcontracting_po/create_subcontracting_po.json
+msgid "Create Subcontracting Purchase Order"
+msgstr "Créer une commande d'achat en sous-traitance"
+
+#. Title of an Onboarding Step
+#: erpnext/buying/onboarding_step/create_supplier/create_supplier.json
+msgid "Create Supplier"
+msgstr "Créer un fournisseur"
+
+#. Label of an action in the Onboarding Step 'Create Tasks'
+#: erpnext/projects/onboarding_step/create_tasks/create_tasks.json
+msgid "Create Task"
+msgstr "Créer une tâche"
+
+#. Title of an Onboarding Step
+#: erpnext/projects/onboarding_step/create_tasks/create_tasks.json
+msgid "Create Tasks"
+msgstr "Créer des tâches"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Create Transfer Entry'
+#: erpnext/stock/onboarding_step/create_transfer_entry/create_transfer_entry.json
+msgid "Create Transfer Entry"
+msgstr "Créer une écriture de transfert"
+
+#. Label of the create_user_automatically (Check) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Create User Automatically"
+msgstr "Créer automatiquement un utilisateur"
+
+#. Label of an action in the Onboarding Step 'Setup Warehouse'
+#: erpnext/stock/onboarding_step/setup_warehouse/setup_warehouse.json
+msgid "Create Warehouses"
+msgstr "Créer des entrepôts"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Create Work Order'
+#: erpnext/manufacturing/onboarding_step/create_work_order/create_work_order.json
+msgid "Create Work Order"
+msgstr "Créer un ordre de fabrication"
+
+#. Label of an action in the Onboarding Step 'Create Delivery Note'
+#: erpnext/selling/onboarding_step/create_delivery_note/create_delivery_note.json
+msgid "Create delivery note"
+msgstr "Créer un bon de livraison"
+
+#. Label of an action in the Onboarding Step 'Create Supplier'
+#: erpnext/buying/onboarding_step/create_supplier/create_supplier.json
+msgid "Create supplier"
+msgstr "Créer un fournisseur"
+
+#. Label of the created_by_migration (Check) field in DocType 'Tax Withholding
+#. Entry'
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Created By Migration"
+msgstr "Créé par migration"
+
+#. Description of the 'Create User Automatically' (Check) field in DocType
+#. 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Creates a User account for this employee using the Preferred, Company, or Personal email."
+msgstr "Crée un compte utilisateur pour cet employé en utilisant l’adresse e-mail préférée, professionnelle ou personnelle."
+
+#: erpnext/setup/setup_wizard/setup_wizard.py:36
+msgid "Creating demo data"
+msgstr "Création des données de démonstration"
+
+#. Label of the cumulative_threshold (Float) field in DocType 'Tax Withholding
+#. Rate'
+#: erpnext/accounts/doctype/tax_withholding_rate/tax_withholding_rate.json
+msgid "Cumulative Threshold"
+msgstr "Seuil cumulatif"
+
+#: erpnext/public/js/utils/naming_series_dialog.js:222
+msgid "Current Series"
+msgstr "Série actuelle"
+
+#. Label of the custom_remark (Check) field in DocType 'Journal Entry'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+msgid "Custom Remark"
+msgstr "Remarque personnalisée"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/financial_reports.json
+msgid "Customer Ledger"
+msgstr "Grand livre client"
+
+#. Label of the customer_pos_id (Data) field in DocType 'Customer'
+#: erpnext/selling/doctype/customer/customer.json
+msgid "Customer POS ID"
+msgstr "Identifiant de point de vente client"
+
+#: erpnext/public/js/utils/naming_series_dialog.js:94
+msgid "Day of month"
+msgstr "Jour du mois"
+
+#. Label of the tax_deduction_basis (Select) field in DocType 'Tax Withholding
+#. Category'
+#: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.json
+msgid "Deduct Tax On Basis"
+msgstr "Déduire la taxe sur la base de"
+
+#. Label of the source_section (Section Break) field in DocType 'Tax
+#. Withholding Entry'
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Deducted From"
+msgstr "Déduit de"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/taxes.json
+msgid "Deduction Certificate"
+msgstr "Certificat de déduction"
+
+#. Label of the default_ageing_range (Data) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Default Ageing Range"
+msgstr "Balance Agée par défaut"
+
+#. Description of the 'End of Life' (Date) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Defines the date after which the item can no longer be used in transactions or manufacturing"
+msgstr "Définit la date après laquelle l'article ne peut plus être utilisé dans les transactions ou la fabrication"
+
+#. Label of a standard navbar item
+#. Type: Action
+#: erpnext/hooks.py erpnext/public/js/utils/demo.js:5
+msgid "Delete Demo Data"
+msgstr "Supprimer les données de démonstration"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:216
+msgid "Deletion process restarted"
+msgstr "Processus de suppression redémarré"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:97
+msgid "Deletion will start automatically after submission."
+msgstr "La suppression démarrera automatiquement après la validation."
+
+#. Label of the deliver_secondary_items (Check) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Deliver secondary Items"
+msgstr "Livrer les articles secondaires"
+
+#: erpnext/setup/demo.py:51
+msgid "Demo Data creation failed."
+msgstr "Échec de la création des données de démonstration."
+
+#: erpnext/setup/demo.py:42
+msgid "Demo data creation failed. Check notifications for more info."
+msgstr "La création des données de démonstration a échoué. Consultez les notifications pour plus d'informations."
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:359
+msgid "Direct return is not allowed for Timesheet."
+msgstr "Le retour direct n'est pas autorisé pour la feuille de temps."
+
+#. Label of the disable_cumulative_threshold (Check) field in DocType 'Tax
+#. Withholding Category'
+#: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.json
+msgid "Disable Cumulative Threshold"
+msgstr "Désactiver le seuil cumulatif"
+
+#. Label of the disable_transaction_threshold (Check) field in DocType 'Tax
+#. Withholding Category'
+#: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.json
+msgid "Disable Transaction Threshold"
+msgstr "Désactiver le seuil de transaction"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:2390
+msgid "Disassemble Qty cannot be less than or equal to 0."
+msgstr "La quantité à désassembler ne peut pas être inférieure ou égale à 0."
+
+#: erpnext/stock/doctype/stock_settings/stock_settings.py:128
+msgid "Do Not Use Batchwise Valuation"
+msgstr "Ne pas utiliser la valorisation par lot"
+
+#: erpnext/selling/report/sales_partner_commission_summary/sales_partner_commission_summary.py:50
+#: erpnext/selling/report/sales_partner_commission_summary/test_sales_partner_commission_summary.py:22
+msgid "DocType can be one of them {0}"
+msgstr "Le type de document peut être l'un des suivants : {0}"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:182
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:445
+msgid "DocType {0} does not exist"
+msgstr "Le type de document {0} n'existe pas"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:295
+msgid "DocType {0} with company field '{1}' is already in the list"
+msgstr "Le type de document {0} avec le champ société « {1} » figure déjà dans la liste"
+
+#. Label of the doctypes_to_delete (Table) field in DocType 'Transaction
+#. Deletion Record'
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.json
+msgid "DocTypes To Delete"
+msgstr "Types de documents à supprimer"
+
+#. Description of the 'Excluded DocTypes' (Table) field in DocType 'Transaction
+#. Deletion Record'
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.json
+msgid "DocTypes that will NOT be deleted."
+msgstr "Types de documents qui ne seront PAS supprimés."
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:84
+msgid "DocTypes with a company field:"
+msgstr "Types de documents avec un champ société :"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:88
+msgid "DocTypes without a company field:"
+msgstr "Types de documents sans champ société :"
+
+#. Label of the document_count (Int) field in DocType 'Transaction Deletion
+#. Record To Delete'
+#: erpnext/setup/doctype/transaction_deletion_record_to_delete/transaction_deletion_record_to_delete.json
+msgid "Document Count"
+msgstr "Nombre de documents"
+
+#. Label of the default_naming_tab (Tab Break) field in DocType 'Selling
+#. Settings'
+#: erpnext/public/js/utils/naming_series_dialog.js:7
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Document Naming"
+msgstr "Nommage des documents"
+
+#: erpnext/stock/report/negative_batch_report/negative_batch_report.py:78
+msgid "Document No"
+msgstr "N° du document"
+
+#. Label of the dont_recompute_tax (Check) field in DocType 'Purchase Taxes and
+#. Charges'
+#. Label of the dont_recompute_tax (Check) field in DocType 'Sales Taxes and
+#. Charges'
+#: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
+#: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
+msgid "Don't Recompute Tax"
+msgstr "Ne pas recalculer la taxe"
+
+#. Label of the dont_reserve_sales_order_qty_on_sales_return (Check) field in
+#. DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Don't reserve Sales Order qty on sales return"
+msgstr "Ne pas réserver la quantité de commande client lors d’un retour de vente"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:190
+msgid "Duplicate DocType"
+msgstr "Type de document en double"
+
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:102
+msgid "Duplicate Item Under Same Parent"
+msgstr "Article en double sous le même parent"
+
+#: erpnext/accounts/doctype/payment_request/payment_request.py:133
+msgid "Duplicate Payment Schedule selected"
+msgstr "Calendrier de paiement en double sélectionné"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:189
+msgid "Duplicate entry: {0}{1}"
+msgstr "Entrée en double : {0}{1}"
+
+#. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
+#: erpnext/stock/doctype/item_barcode/item_barcode.json
+msgid "EAN-13"
+msgstr "EAN-13"
+
+#. Label of a Desktop Icon
+#: erpnext/desktop_icon/erpnext.json
+msgid "ERPNext"
+msgstr "ERPNext"
+
+#. Label of a Desktop Icon
+#. Name of a Workspace
+#. Title of a Workspace Sidebar
+#: erpnext/desktop_icon/erpnext_settings.json
+#: erpnext/setup/workspace/erpnext_settings/erpnext_settings.json
+#: erpnext/workspace_sidebar/erpnext_settings.json
+msgid "ERPNext Settings"
+msgstr "Paramètres ERPNext"
+
+#. Label of the override_tax_withholding_entries (Check) field in DocType
+#. 'Journal Entry'
+#. Label of the override_tax_withholding_entries (Check) field in DocType
+#. 'Payment Entry'
+#. Label of the override_tax_withholding_entries (Check) field in DocType
+#. 'Purchase Invoice'
+#. Label of the override_tax_withholding_entries (Check) field in DocType
+#. 'Sales Invoice'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+msgid "Edit Tax Withholding Entries"
+msgstr "Modifier les écritures de retenue d’impôt"
+
+#: erpnext/crm/doctype/email_campaign/email_campaign.py:112
+#: erpnext/crm/doctype/email_campaign/email_campaign.py:149
+#: erpnext/crm/doctype/email_campaign/email_campaign.py:157
+msgid "Email Campaign Error"
+msgstr "Erreur de campagne e-mail"
+
+#: erpnext/crm/doctype/email_campaign/email_campaign.py:125
+msgid "Email Campaign Send Error"
+msgstr "Erreur d’envoi de campagne e-mail"
+
+#: erpnext/setup/doctype/employee/employee.py:433
+msgid "Email is required to create a user"
+msgstr "L’adresse e-mail est obligatoire pour créer un utilisateur"
+
+#: erpnext/setup/doctype/employee/employee.js:72
+msgid "Email is required to create a user."
+msgstr "L’adresse e-mail est obligatoire pour créer un utilisateur."
+
+#: erpnext/setup/doctype/employee/employee.py:567
+msgid "Employee is required"
+msgstr "L’employé est requis"
+
+#: erpnext/setup/doctype/employee/employee.py:430
+msgid "Employee {0} already has a linked user"
+msgstr "L’employé {0} a déjà un utilisateur associé"
+
+#: erpnext/setup/doctype/employee/employee.py:592
+msgid "Employee {0} not found"
+msgstr "Employé {0} introuvable"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:754
+msgid "Empty To Delete List"
+msgstr "Liste « À supprimer » vide"
+
+#. Label of the enable_accounting_dimensions (Check) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Enable Accounting Dimensions"
+msgstr "Activer les dimensions comptables"
+
+#. Label of the enable_discounts_and_margin (Check) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Enable Discounts and Margin"
+msgstr "Activer les réductions et la marge"
+
+#. Label of the enable_loyalty_point_program (Check) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Enable Loyalty Point Program"
+msgstr "Activer le programme de fidélité"
+
+#. Label of the enable_separate_reposting_for_gl (Check) field in DocType
+#. 'Stock Reposting Settings'
+#: erpnext/stock/doctype/stock_reposting_settings/stock_reposting_settings.json
+msgid "Enable Separate Reposting for GL"
+msgstr "Activer la recomptabilisation séparée pour le GL"
+
+#: erpnext/stock/report/stock_ledger/stock_ledger.js:122
+msgid "Enable Serial / Batch Bundle"
+msgstr "Activer l’ensemble de n° de série et de lot"
+
+#. Label of the enable_subscription (Check) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Enable Subscription"
+msgstr "Activer l’abonnement"
+
+#. Description of the 'Enable Subscription' (Check) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Enable Subscription tracking in invoice"
+msgstr "Activer le suivi des abonnements dans les factures"
+
+#. Label of the enable_utm (Check) field in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Enable UTM"
+msgstr "Activer l’UTM"
+
+#. Description of the 'Enable UTM' (Check) field in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Enable Urchin Tracking Module parameters in Quotation, Sales Order, Sales Invoice, POS Invoice, Lead,  and Delivery Note."
+msgstr "Activer les paramètres du module de suivi Urchin dans les devis, commandes clients, factures de vente, factures PDV, prospects et bons de livraison."
+
+#. Description of the 'Enable Accounting Dimensions' (Check) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Enable cost center, projects and other custom accounting dimensions"
+msgstr "Activer le centre de coûts, les projets et les autres dimensions comptables personnalisées"
+
+#. Label of the enable_cutoff_date_on_bulk_delivery_note_creation (Check) field
+#. in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Enable cut-off date on creating bulk Delivery Notes"
+msgstr "Activer la date limite lors de la création groupée de bons de livraison"
+
+#. Label of the enable_discount_accounting (Check) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Enable discount accounting for selling"
+msgstr "Activer la comptabilité des remises pour la vente"
+
+#. Description of the 'Allow negative rates for Items' (Check) field in DocType
+#. 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Enable this option to permit the use of negative rates for items in sales transactions. This setting is useful for applying substantial discounts, processing refunds or returns, and handling special promotional pricing."
+msgstr "Activez cette option pour autoriser l’utilisation de taux négatifs pour les articles dans les transactions de vente. Ce paramètre est utile pour appliquer des remises importantes, traiter des remboursements ou des retours et gérer des tarifs promotionnels spéciaux."
+
+#. Description of the 'Validate selling price for Item against purchase or
+#. valuation rate' (Check) field in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Enable this to block transactions where the selling price is less than the purchase or valuation rate"
+msgstr "Activez cette option pour bloquer les transactions lorsque le prix de vente est inférieur au prix d’achat ou au taux de valorisation"
+
+#. Description of the 'Retain Sample' (Check) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Enable to reserve a small sample from each batch for any analysis arising ahead"
+msgstr "Activer la réservation d’un petit échantillon de chaque lot pour toute analyse ultérieure"
+
+#. Label of the enable_tracking_sales_commissions (Check) field in DocType
+#. 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Enable tracking sales commissions"
+msgstr "Activer le suivi des commissions sur ventes"
+
+#. Description of the 'Calculate Product Bundle price based on child Item's
+#. rates' (Check) field in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid ""
+"Enabling this will do the following:\n"
+"<ul style=\"padding-left:16px\">\n"
+"<li>Make the rate column of all Packed/Bundle Items tables editable.</li>\n"
+"<li>Calculate the prices of all <a href=\"/desk/product-bundle\" rel=\"noopener noreferrer\">Product Bundles</a> in the Items table, based on the prices of its child Items, specified in the Packed/Bundle Items table. </li>\n"
+"</ul>\n"
+"Note: If this is enabled, updating the rate of the Product Bundle in the Items table will not change its price. It will get reset to the price based on its Child Items on saving the doc."
+msgstr "Activer cette option aura les effets suivants :\n<ul style=\"padding-left:16px\">\n<li>Rendre modifiable la colonne du taux de tous les tableaux d’articles emballés/en lot.</li>\n<li>Calculer les prix de tous les <a href=\"/desk/product-bundle\" rel=\"noopener noreferrer\">lots de produits</a> dans le tableau des articles, sur la base des prix de leurs articles enfants, indiqués dans le tableau des articles emballés/en lot. </li>\n</ul>\nRemarque : si cette option est activée, la mise à jour du taux du lot de produits dans le tableau des articles ne modifiera pas son prix. Celui-ci sera réinitialisé au prix calculé à partir de ses articles enfants lors de l’enregistrement du document."
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:267
+msgid "Error getting details for {0}: {1}"
+msgstr "Erreur lors de l’obtention des détails pour {0} : {1}"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:931
+msgid "Excess Disassembly"
+msgstr "Désassemblage excédentaire"
+
+#: erpnext/accounts/report/trial_balance_for_party/trial_balance_for_party.js:86
+msgid "Exclude Zero Balance Parties"
+msgstr "Exclure les parties à solde nul"
+
+#. Option for the 'Asset Type' (Select) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Existing Asset"
+msgstr "Actif existant"
+
+#. Label of the exit (Tab Break) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Exit"
+msgstr "Départ"
+
+#: erpnext/manufacturing/report/bom_stock_analysis/bom_stock_analysis.js:21
+msgid "FG Items to Make"
+msgstr "Articles finis à fabriquer"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/accounts_setup.json
+msgid "FX Revaluation"
+msgstr "Réévaluation des devises"
+
+#: erpnext/setup/setup_wizard/setup_wizard.py:37
+#: erpnext/setup/setup_wizard/setup_wizard.py:38
+msgid "Failed to create demo data"
+msgstr "Échec de la création des données de démonstration"
+
+#: erpnext/crm/doctype/email_campaign/email_campaign.py:126
+msgid "Failed to send email for campaign {0} to {1}"
+msgstr "Échec de l’envoi de l’e-mail de la campagne {0} à {1}"
+
+#: erpnext/setup/setup_wizard/setup_wizard.py:26
+msgid "Failed to set defaults"
+msgstr "Échec de la définition des valeurs par défaut"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/quality.json
+msgid "Feedback Template"
+msgstr "Modèle de commentaires sur la qualité"
+
+#. Label of the fetch_payment_schedule_in_payment_request (Check) field in
+#. DocType 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Fetch Payment Schedule In Payment Request"
+msgstr "Récupérer le calendrier de paiement dans la demande de paiement"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:224
+msgid "Field '{0}' is not a valid Company link field for DocType {1}"
+msgstr "Le champ « {0} » n’est pas un champ de lien Société valide pour le type de document {1}"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:1066
+msgid "File does not belong to this Transaction Deletion Record"
+msgstr "Le fichier n’appartient pas à cet enregistrement de suppression de transaction"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:1060
+msgid "File not found"
+msgstr "Fichier introuvable"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:1074
+msgid "File not found on server"
+msgstr "Fichier introuvable sur le serveur"
+
+#: erpnext/public/js/utils/naming_series_dialog.js:100
+msgid "Fiscal Year (requires ERPNext to be installed)"
+msgstr "Exercice fiscal (ERPNext doit être installé)"
+
+#: erpnext/accounts/notification/notification_for_new_fiscal_year/notification_for_new_fiscal_year.html:5
+msgid "Fiscal Year Details"
+msgstr "Détails de l’exercice fiscal"
+
+#: erpnext/manufacturing/doctype/bom/bom.py:368
+msgid "For operation {0} at row {1}, please add raw materials or set a BOM against it."
+msgstr "Pour l’opération {0} à la ligne {1}, veuillez ajouter des matières premières ou lui associer une nomenclature."
+
+#: erpnext/projects/doctype/project/project.js:208
+msgid "For project - {0}, update your status"
+msgstr "Pour le projet - {0}, mettez à jour votre statut"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1069
+msgid "For the item {0}, the consumed quantity should be {1} according to the BOM {2}."
+msgstr "Pour l’article {0}, la quantité consommée doit être de {1} conformément à la nomenclature {2}."
+
+#: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:29
+msgid "From Date and To Date are required"
+msgstr "La date de début et la date de fin sont obligatoires"
+
+#: erpnext/selling/report/sales_partner_commission_summary/sales_partner_commission_summary.py:60
+msgid "From Date cannot be greater than To Date."
+msgstr "La Date Initiale ne peut pas être postérieure à la Date Finale."
+
+#: erpnext/stock/doctype/shipment/shipment.js:275
+msgid "Full Name, Email or Phone/Mobile of the user are mandatory to continue."
+msgstr "Le nom complet, l’adresse e-mail ou le téléphone/mobile de l’utilisateur sont obligatoires pour continuer."
+
+#. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
+#: erpnext/stock/doctype/item_barcode/item_barcode.json
+msgid "GTIN-14"
+msgstr "GTIN-14"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:112
+msgid "Generate To Delete List"
+msgstr "Générer la liste à supprimer"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:472
+msgid "Generate To Delete list first"
+msgstr "Générer d’abord la liste des éléments à supprimer"
+
+#. Label of the get_secondary_items (Button) field in DocType 'Subcontracting
+#. Receipt'
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Get Secondary Items"
+msgstr "Obtenir les articles secondaires"
+
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:196
+msgid "Getting Secondary Items"
+msgstr "Récupération des articles secondaires"
+
+#. Label of the base_grand_total (Currency) field in DocType 'Sales Invoice'
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+msgid "Grand Total (Company Currency"
+msgstr "Total TTC (Devise de la Société"
+
+#: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:252
+msgid "Grand Total (Transaction Currency)"
+msgstr "Total TTC (Devise de la Transaction)"
+
+#: erpnext/accounts/doctype/payment_request/payment_request.py:125
+msgid "Grand Total must match sum of Payment References"
+msgstr "Le total TTC doit correspondre à la somme des références de paiement"
+
+#. Option for the 'Deduct Tax On Basis' (Select) field in DocType 'Tax
+#. Withholding Category'
+#: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.json
+msgid "Gross Total"
+msgstr "Total brut"
+
+#. Label of the group_name (Data) field in DocType 'Tax Withholding Group'
+#: erpnext/accounts/doctype/tax_withholding_group/tax_withholding_group.json
+msgid "Group Name"
+msgstr "Nom du groupe"
+
+#. Label of the hide_tax_id (Check) field in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Hide Customer's Tax ID from sales transactions"
+msgstr "Masquer le numéro d'identification fiscale du client dans les transactions de vente"
+
+#. Description of the 'Quantity (Output Qty)' (Float) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "How many units of the final product this BOM makes."
+msgstr "Combien d’unités du produit fini cette nomenclature produit-elle ?"
+
+#. Label of the sales_update_frequency (Select) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "How often should sales data be updated in Company/Project?"
+msgstr "À quelle fréquence les données de vente doivent-elles être mises à jour dans la société/le projet ?"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:93
+msgid "IMPORTANT: Create a backup before proceeding!"
+msgstr "IMPORTANT : Créer une sauvegarde avant de continuer !"
+
+#. Description of the 'Set incoming rate as zero for expired Batch' (Check)
+#. field in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "If enabled, system will set incoming rate as zero for stand-alone credit notes with expired batch item."
+msgstr "Si cette option est activée, le système définira le taux entrant à zéro pour les avoirs indépendants comportant un article géré par lot expiré."
+
+#. Description of the 'Deliver secondary Items' (Check) field in DocType
+#. 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "If enabled, the Secondary Items generated against a Finished Good will also be added in the Stock Entry when delivering that Finished Good."
+msgstr "Si cette option est activée, les articles secondaires générés pour un produit fini seront également ajoutés au mouvement de stock lors de la livraison de ce produit fini."
+
+#. Description of the 'Allow Internal Transfers at Arm's Length Price' (Check)
+#. field in DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "If enabled, the item rate won't adjust to the valuation rate during internal transfers, but accounting will still use the valuation rate. This will allow the user to specify a different rate for printing or taxation purposes."
+msgstr "Si cette option est activée, le taux de l’article ne sera pas ajusté au taux de valorisation lors des transferts internes, mais la comptabilité continuera d’utiliser le taux de valorisation. Cela permettra à l’utilisateur de définir un taux différent à des fins d’impression ou de taxation."
+
+#. Description of the 'Allow Negative Stock for Batch' (Check) field in DocType
+#. 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "If enabled, the system will allow negative stock entries for the batch. But, this may lead to incorrect valuation rates, so it is recommended to avoid using this option. The system will permit negative stock only when it is caused by backdated entries and will validate and block negative stock in all other cases."
+msgstr "Si cette option est activée, le système autorisera les mouvements de stock négatifs pour le lot. Toutefois, cela peut entraîner des taux de valorisation incorrects ; il est donc recommandé d’éviter d’utiliser cette option. Le système autorisera le stock négatif uniquement lorsqu’il est dû à des écritures antidatées et validera et bloquera le stock négatif dans tous les autres cas."
+
+#. Description of the 'Use prices from Default Price List as fallback' (Check)
+#. field in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "If no Item Price is found for an item in the Price List set in the transaction, prices from the Default Price List will be fetched."
+msgstr "Si aucun prix d’article n’est trouvé pour un article dans la liste de prix définie dans la transaction, les prix de la liste de prix par défaut seront récupérés."
+
+#: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.js:197
+msgid "If party does not exist, create it using the Customer Name field."
+msgstr "Si le client n’existe pas, créez-le à l’aide du champ Nom du client."
+
+#: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.js:198
+msgid "If party does not exist, create it using the Supplier Name field."
+msgstr "Si le fournisseur n’existe pas, créez-le à l’aide du champ Nom du fournisseur."
+
+#. Description of the 'Sequence ID' (Int) field in DocType 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "If you want to run operations in parallel, keep the same sequence ID for them."
+msgstr "Si vous souhaitez exécuter des opérations en parallèle, conservez le même identifiant de séquence pour celles-ci."
+
+#. Label of the ignore_tax_withholding_threshold (Check) field in DocType
+#. 'Journal Entry'
+#. Label of the ignore_tax_withholding_threshold (Check) field in DocType
+#. 'Payment Entry'
+#. Label of the ignore_tax_withholding_threshold (Check) field in DocType
+#. 'Purchase Invoice'
+#. Label of the ignore_tax_withholding_threshold (Check) field in DocType
+#. 'Sales Invoice'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+msgid "Ignore Tax Withholding Threshold"
+msgstr "Ignorer le seuil de retenue d’impôt"
+
+#: erpnext/stock/doctype/item/item.py:245
+msgid "Image in the description has been removed. To disable this behavior, uncheck \"{0}\" in {1}."
+msgstr "L’image de la description a été supprimée. Pour désactiver ce comportement, décochez \"{0}\" dans {1}."
+
+#: erpnext/setup/doctype/employee/employee_list.js:16
+msgid "Import Employees"
+msgstr "Importer les employés"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:564
+msgid "Import Summary"
+msgstr "Résumé de l’importation"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:192
+msgid "Imported {0} DocTypes"
+msgstr "{0} types de document importés"
+
+#: erpnext/edi/doctype/code_list/code_list_import.py:36
+msgid "Importing Code Lists from remote URLs is not allowed."
+msgstr "L’importation de listes de codes depuis des URL distantes n’est pas autorisée."
+
+#. Label of a number card in the Invoicing Workspace
+#: erpnext/accounts/workspace/invoicing/invoicing.json
+msgid "Incoming Bills"
+msgstr "Factures fournisseurs reçues"
+
+#. Label of a number card in the Invoicing Workspace
+#: erpnext/accounts/workspace/invoicing/invoicing.json
+msgid "Incoming Payment"
+msgstr "Paiement entrant"
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:195
+msgid "Incorrect Account"
+msgstr "Compte incorrect"
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:143
+msgid "Incorrect Company"
+msgstr "Société incorrecte"
+
+#. Label of the internal_customer_section (Section Break) field in DocType
+#. 'Customer'
+#: erpnext/selling/doctype/customer/customer.json
+msgid "Internal Customer Accounting"
+msgstr "Comptabilité du client interne"
+
+#. Label of the internal_supplier_section (Section Break) field in DocType
+#. 'Supplier'
+#: erpnext/buying/doctype/supplier/supplier.json
+msgid "Internal Supplier Accounting"
+msgstr "Comptabilité du fournisseur interne"
+
+#: erpnext/accounts/report/budget_variance_report/budget_variance_report.py:418
+msgid "Invalid Accounting Dimension"
+msgstr "Dimension comptable non valide"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:498
+msgid "Invalid CSV format. Expected column: doctype_name"
+msgstr "Format CSV non valide. Colonne attendue : doctype_name"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:227
+msgid "Invalid Company Field"
+msgstr "Champ Société non valide"
+
+#: erpnext/selling/doctype/customer/customer.py:368
+msgid "Invalid Customer Group"
+msgstr "Groupe de clients non valide"
+
+#: erpnext/edi/doctype/code_list/code_list_import.py:37
+msgid "Invalid Upload"
+msgstr "Téléversement non valide"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:1055
+msgid "Invalid file URL"
+msgstr "URL de fichier non valide"
+
+#. Label of the inventory_valuation_section (Section Break) field in DocType
+#. 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Inventory Valuation"
+msgstr "Valorisation de l’inventaire"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Invite Users'
+#: erpnext/setup/onboarding_step/invite_users/invite_users.json
+msgid "Invite Users"
+msgstr "Inviter des utilisateurs"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/subcontracting.json
+msgid "Inward Order"
+msgstr "Commande d’entrée"
+
+#. Label of the dn_required (Select) field in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Is Delivery Note required to create Sales Invoice?"
+msgstr "Un bon de livraison est-il requis pour créer une facture de vente ?"
+
+#. Label of the is_legacy (Check) field in DocType 'BOM Secondary Item'
+#: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json
+msgid "Is Legacy"
+msgstr "Est obsolète"
+
+#. Label of the is_legacy_scrap_item (Check) field in DocType 'Stock Entry
+#. Detail'
+#. Label of the is_legacy_scrap_item (Check) field in DocType 'Subcontracting
+#. Receipt Item'
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Is Legacy Scrap Item"
+msgstr "Est un article de rebut obsolète"
+
+#. Label of the so_required (Select) field in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Is Sales Order required to create Sales Invoice/Delivery Note?"
+msgstr "Une commande client est-elle requise pour créer une facture de vente ou un bon de livraison ?"
+
+#: erpnext/stock/get_item_details.py:1124
+msgid "Item Price Added for {0} in Price List {1}"
+msgstr "Prix de l’article ajouté pour {0} dans la liste de prix {1}"
+
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:99
+msgid "Item {0} added multiple times under the same parent item {1} at rows {2} and {3}"
+msgstr "L’article {0} a été ajouté plusieurs fois sous le même article parent {1}, aux lignes {2} et {3}"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/financial_reports.json
+msgid "Item-wise sales Register"
+msgstr "Registre des ventes par article"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/subcontracting.json
+msgid "Items To Be Received"
+msgstr "Articles à recevoir"
+
+#: erpnext/selling/page/point_of_sale/pos_item_selector.js:110
+msgid "Items not found."
+msgstr "Articles introuvables."
+
+#. Name of a DocType
+#: erpnext/manufacturing/doctype/job_card_secondary_item/job_card_secondary_item.json
+msgid "Job Card Secondary Item"
+msgstr "Article secondaire de la carte de travail"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Learn Asset'
+#: erpnext/assets/onboarding_step/learn_asset/learn_asset.json
+msgid "Learn Asset"
+msgstr "Découvrir les actifs"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Learn Subcontracting'
+#: erpnext/subcontracting/onboarding_step/learn_subcontracting/learn_subcontracting.json
+msgid "Learn Subcontracting"
+msgstr "Découvrir la sous-traitance"
+
+#. Description of the 'Enable Common Party Accounting' (Check) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Learn about <a href=\"https://docs.frappe.io/erpnext/user/manual/en/common_party_accounting\" rel=\"noopener noreferrer\">Common Party</a>"
+msgstr "En savoir plus sur <a href=\"https://docs.frappe.io/erpnext/user/manual/en/common_party_accounting\" rel=\"noopener noreferrer\">Tiers commun</a>"
+
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:146
+msgid "Ledger Type"
+msgstr "Type de grand livre"
+
+#. Label of the vouchers_posted (Int) field in DocType 'Repost Item Valuation'
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
+msgid "Ledgers Posted"
+msgstr "Grands livres comptabilisés"
+
+#. Label of the maintain_same_sales_rate (Check) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Maintain same rate throughout sales cycle"
+msgstr "Maintenir le même prix tout au long du cycle de vente"
+
+#: erpnext/public/js/telephony.js:29
+msgid "Make a call"
+msgstr "Passer un appel"
+
+#. Description of the 'Enable tracking sales commissions' (Check) field in
+#. DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Manage sales partner's and sales team's commissions"
+msgstr "Gérer les commissions des partenaires commerciaux et de l’équipe commerciale"
+
+#. Title of the Module Onboarding 'Manufacturing Onboarding'
+#: erpnext/manufacturing/module_onboarding/manufacturing_onboarding/manufacturing_onboarding.json
+msgid "Manufacturing Setup"
+msgstr "Configuration de la production"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/manufacturing.json
+msgid "Material Planning"
+msgstr "Planification du matériel"
+
+#: erpnext/selling/doctype/sales_order/sales_order.py:1125
+msgid "Material Request already created for the ordered quantity"
+msgstr "La demande de matériel a déjà été créée pour la quantité commandée"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/subcontracting.json
+msgid "Materials To Be Transferred"
+msgstr "Matières à transférer"
+
+#: erpnext/manufacturing/report/bom_stock_analysis/bom_stock_analysis.py:82
+#: erpnext/manufacturing/report/bom_stock_analysis/bom_stock_analysis.py:151
+msgid "Maximum Producible Items"
+msgstr "Articles productibles au maximum"
+
+#: erpnext/setup/install.py:137
+msgid "Messaging CRM Campaign"
+msgstr "Campagne de messagerie CRM"
+
+#: erpnext/setup/doctype/employee/employee.py:567
+msgid "Missing Parameter"
+msgstr "Paramètre manquant"
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_engine.py:249
+msgid "Missing Required Filter"
+msgstr "Filtre obligatoire manquant"
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:171
+msgid "Missing Warehouse"
+msgstr "Entrepôt manquant"
+
+#. Description of the 'Hide Customer's Tax ID from sales transactions' (Check)
+#. field in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Most Customers have a unique Tax ID that is fetched into selling transactions. Enable this setting if you do not want Customer Tax IDs to appear in sales transactions."
+msgstr "La plupart des clients disposent d’un identifiant fiscal unique, récupéré dans les transactions de vente. Activez ce paramètre si vous ne souhaitez pas que les identifiants fiscaux des clients apparaissent dans les transactions de vente."
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:244
+msgid "Multiple company fields available: {0}. Please select manually."
+msgstr "Plusieurs champs de société sont disponibles : {0}. Veuillez sélectionner manuellement."
+
+#: erpnext/selling/doctype/selling_settings/selling_settings.js:38
+msgid "Naming Series for {0}"
+msgstr "Masque de numérotation pour {0}"
+
+#. Label of the naming_series_details (Small Text) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Naming Series options"
+msgstr "Options du masque de numérotation"
+
+#: erpnext/public/js/utils/naming_series_dialog.js:196
+msgid "Naming Series updated"
+msgstr "Série de numérotation mise à jour"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:936
+msgid "Naming series '{0}' for DocType '{1}' does not contain standard '.' or '{{' separator. Using fallback extraction."
+msgstr "La série de numérotation '{0}' pour le type de document '{1}' ne contient pas de séparateur standard '.' ou '{{'. Utilisation de l'extraction de secours."
+
+#. Name of a report
+#: erpnext/stock/report/negative_batch_report/negative_batch_report.json
+msgid "Negative Batch Report"
+msgstr "Rapport de lots négatifs"
+
+#: erpnext/accounts/notification/notification_for_new_fiscal_year/notification_for_new_fiscal_year.html:1
+msgid "New Fiscal Year - {0}"
+msgstr "Nouvel exercice fiscal - {0}"
+
+#. Label of a number card in the CRM Workspace
+#: erpnext/crm/workspace/crm/crm.json
+msgid "New Lead (Last 1 Month)"
+msgstr "Nouveaux leads (dernier mois)"
+
+#. Label of a number card in the CRM Workspace
+#: erpnext/crm/workspace/crm/crm.json
+msgid "New Opportunity (Last 1 Month)"
+msgstr "Nouvelles opportunités (dernier mois)"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:753
+msgid "No DocTypes in To Delete list. Please generate or import the list before submitting."
+msgstr "Aucun type de document dans la liste « À supprimer ». Veuillez générer ou importer la liste avant de la valider."
+
+#: erpnext/selling/doctype/sales_order/sales_order.js:1258
+msgid "No Items with Bill of Materials to Manufacture or all items already manufactured"
+msgstr "Aucun article avec nomenclature à fabriquer ou tous les articles sont déjà fabriqués"
+
+#: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.py:109
+msgid "No Tax withholding account set for Company {0} in Tax Withholding Category {1}."
+msgstr "Aucun compte de taxation à la source n'est défini pour la société {0} dans la catégorie de taxation à la source {1}."
+
+#: erpnext/crm/doctype/email_campaign/email_campaign.py:150
+msgid "No email found for {0} {1}"
+msgstr "Aucun e-mail trouvé pour {0} {1}"
+
+#: erpnext/edi/doctype/code_list/code_list_import.py:73
+msgid "No file uploaded or URL provided."
+msgstr "Aucun fichier téléchargé ni aucune URL fournie."
+
+#: erpnext/selling/doctype/selling_settings/selling_settings.js:56
+msgid "No naming series defined"
+msgstr "Aucune série de numérotation définie"
+
+#. Label of the total_reposting_count (Int) field in DocType 'Repost Item
+#. Valuation'
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
+msgid "No of Items to Repost"
+msgstr "Nombre d'articles à republier"
+
+#: erpnext/public/js/controllers/transaction.js:472
+msgid "No pending payment schedules available."
+msgstr "Aucun calendrier de paiement en attente n'est disponible."
+
+#: erpnext/crm/doctype/email_campaign/email_campaign.py:158
+msgid "No recipients found for campaign {0}"
+msgstr "Aucun destinataire trouvé pour la campagne {0}"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:152
+msgid "No rows with zero document count found"
+msgstr "Aucune ligne avec un nombre de documents nul trouvée"
+
+#: erpnext/stock/doctype/batch/batch.js:76
+msgid "No stock available for this batch."
+msgstr "Aucun stock disponible pour ce lot."
+
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.js:117
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:113
+msgid "Non-phantom BOM cannot be created for non-stock item {0}."
+msgstr "Une nomenclature non fantôme ne peut pas être créée pour l'article hors stock {0}."
+
+#: erpnext/public/js/utils/naming_series_dialog.js:301
+msgid "Not configured"
+msgstr "Non configuré"
+
+#. Title of the Module Onboarding 'Stock Onboarding'
+#: erpnext/selling/module_onboarding/stock_onboarding/stock_onboarding.json
+msgid "Onboarding for Stock!"
+msgstr "Prise en main du stock !"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:1069
+msgid "Only CSV files are allowed"
+msgstr "Seuls les fichiers CSV sont autorisés"
+
+#: erpnext/manufacturing/doctype/bom/bom.py:330
+msgid "Only one operation can have 'Is Final Finished Good' checked when 'Track Semi Finished Goods' is enabled."
+msgstr "Une seule opération peut avoir « Est un produit fini final » cochée lorsque « Suivre les produits semi-finis » est activé."
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/accounts_setup.json
+msgid "Opening Invoice Tool"
+msgstr "Outil de création de facture d'ouverture"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1035
+msgid "Optional. Select a specific manufacture entry to reverse."
+msgstr "Facultatif. Sélectionnez une écriture de fabrication spécifique à contrepasser."
+
+#: erpnext/public/js/utils/naming_series_dialog.js:83
+msgid "Optionally, set the number of digits in the series using dot (.) followed by hashes (#). For example, '.####' means that the series will have four digits. Default is five digits."
+msgstr "Vous pouvez éventuellement définir le nombre de chiffres de la série en utilisant un point (.) suivi de dièses (#). Par exemple, « .#### » signifie que la série comportera quatre chiffres. La valeur par défaut est de cinq chiffres."
+
+#. Label of the tab_break_dpet (Tab Break) field in DocType 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Others"
+msgstr "Autres"
+
+#. Label of a number card in the Invoicing Workspace
+#: erpnext/accounts/workspace/invoicing/invoicing.json
+msgid "Outgoing Bills"
+msgstr "Factures sortantes"
+
+#. Label of a number card in the Invoicing Workspace
+#: erpnext/accounts/workspace/invoicing/invoicing.json
+msgid "Outgoing Payment"
+msgstr "Paiement sortant"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/subcontracting.json
+msgid "Outward Order"
+msgstr "Commande de sous-traitance sortante"
+
+#. Option for the 'Status' (Select) field in DocType 'Tax Withholding Entry'
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Over Withheld"
+msgstr "Retenue excédentaire"
+
+#. Label of the asset_owner_section (Section Break) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Ownership"
+msgstr "Propriété"
+
+#. Option for the 'Status' (Select) field in DocType 'Timesheet'
+#. Option for the 'Status' (Select) field in DocType 'Delivery Note'
+#: erpnext/projects/doctype/timesheet/timesheet.json
+#: erpnext/projects/doctype/timesheet/timesheet_list.js:5
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/delivery_note/delivery_note_list.js:24
+msgid "Partially Billed"
+msgstr "Partiellement facturé"
+
+#. Label of the party (Dynamic Link) field in DocType 'Opening Invoice Creation
+#. Tool Item'
+#: erpnext/accounts/doctype/opening_invoice_creation_tool_item/opening_invoice_creation_tool_item.json
+msgid "Party ID"
+msgstr "ID du tiers"
+
+#. Label of the payment_options_section (Section Break) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Payment Options"
+msgstr "Options de paiement"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/invoicing.json
+msgid "Payment Reconciliaition"
+msgstr "Rapprochement des paiements"
+
+#. Description of the 'Create in Draft Status' (Check) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Payment Requests made from Sales / Purchase Invoice will be put in Draft explicitly"
+msgstr "Les demandes de paiement créées à partir d'une facture de vente ou d'achat seront explicitement mises à l'état Brouillon."
+
+#: erpnext/accounts/doctype/payment_request/payment_request.py:589
+msgid "Payment Schedule based Payment Requests cannot be created because a Payment Entry already exists for this document."
+msgstr "Les demandes de paiement fondées sur le calendrier de paiement ne peuvent pas être créées, car une écriture de paiement existe déjà pour ce document."
+
+#: erpnext/public/js/controllers/transaction.js:483
+msgid "Payment Schedules"
+msgstr "Calendriers de paiement"
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:3032
+msgid "Payment methods refreshed. Please review before proceeding."
+msgstr "Les modes de paiement ont été actualisés. Veuillez les vérifier avant de continuer."
+
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.js:113
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:110
+msgid "Phantom BOM cannot be created for stock item {0}."
+msgstr "Une nomenclature fantôme ne peut pas être créée pour l’article en stock {0}."
+
+#: erpnext/manufacturing/doctype/bom/bom.js:39
+msgid "Please add Operations first."
+msgstr "Veuillez d’abord ajouter des opérations."
+
+#: erpnext/public/js/utils/naming_series_dialog.js:170
+msgid "Please add at least one naming series."
+msgstr "Veuillez ajouter au moins une série de numérotation."
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:149
+msgid "Please check the 'Activate Serial and Batch No for Item' checkbox in the {0} to make Serial and Batch Bundle for the item."
+msgstr "Veuillez cocher la case « Activer les n° de série et de lot pour l’article » dans le {0} afin de créer l’ensemble de n° de série et de lot pour l’article."
+
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:679
+msgid "Please enter Batch No"
+msgstr "Veuillez saisir le n° de lot"
+
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:681
+msgid "Please enter Serial No"
+msgstr "Veuillez saisir le n° de série"
+
+#: erpnext/stock/doctype/shipment/shipment.js:277
+msgid "Please first set Full Name, Email and Phone for the user"
+msgstr "Veuillez d’abord définir le nom complet, l’adresse e-mail et le téléphone de l’utilisateur"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:272
+msgid "Please generate To Delete list before submitting"
+msgstr "Veuillez générer la liste « À supprimer » avant de valider"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:70
+msgid "Please generate the To Delete list before submitting"
+msgstr "Veuillez générer la liste « À supprimer » avant de valider"
+
+#: erpnext/accounts/notification/notification_for_new_fiscal_year/notification_for_new_fiscal_year.html:43
+msgid "Please review the {0} configuration and complete any required financial setup activities."
+msgstr "Veuillez vérifier la configuration de {0} et effectuer toutes les opérations requises de mise en place financière."
+
+#: erpnext/selling/report/sales_partner_commission_summary/sales_partner_commission_summary.py:53
+msgid "Please select a company."
+msgstr "Veuillez sélectionner une société."
+
+#: erpnext/public/js/utils/naming_series_dialog.js:165
+msgid "Please select a transaction."
+msgstr "Veuillez sélectionner une transaction."
+
+#: erpnext/public/js/controllers/transaction.js:526
+msgid "Please select at least one schedule."
+msgstr "Veuillez sélectionner au moins un échéancier."
+
+#: erpnext/selling/report/sales_partner_commission_summary/sales_partner_commission_summary.py:47
+msgid "Please select the document type first."
+msgstr "Veuillez d’abord sélectionner le type de document."
+
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:99
+msgid "Posting date is required"
+msgstr "La date de comptabilisation est obligatoire"
+
+#. Description of the 'Don't reserve Sales Order qty on sales return' (Check)
+#. field in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Prevents the automatic reservation of stock quantities from sales orders when processing sales returns."
+msgstr "Empêche la réservation automatique des quantités en stock des commandes clients lors du traitement des retours de vente."
+
+#: erpnext/stock/report/negative_batch_report/negative_batch_report.py:54
+msgid "Previous Qty"
+msgstr "Qté précédente"
+
+#. Label of the process_loss_per (Percent) field in DocType 'BOM Secondary
+#. Item'
+#: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json
+msgid "Process Loss %"
+msgstr "% de perte de processus"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:188
+msgid "Processing import..."
+msgstr "Traitement de l’importation..."
+
+#. Label of the production_item_info_section (Section Break) field in DocType
+#. 'BOM'
+#. Label of the production_item_info_section (Section Break) field in DocType
+#. 'Work Order'
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "Production Item Info"
+msgstr "Informations sur l’article de production"
+
+#. Title of the Module Onboarding 'Projects Onboarding'
+#: erpnext/projects/module_onboarding/projects_onboarding/projects_onboarding.json
+msgid "Projects Setup"
+msgstr "Configuration des projets"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:198
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:783
+msgid "Protected DocType"
+msgstr "Type de document protégé"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/buying.json
+msgid "Purchase Receipt Trends "
+msgstr "Tendances des Reçus d'Achats "
+
+#. Label of the purchase_tax_withholding_category (Link) field in DocType
+#. 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Purchase Tax Withholding Category"
+msgstr "Catégorie de taxation à la source pour les achats"
+
+#. Label of the received_qty (Float) field in DocType 'Subcontracting Receipt
+#. Item'
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Qty (As per BOM)"
+msgstr "Qté (selon la nomenclature)"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:379
+msgid "Qty to Disassemble"
+msgstr "Qté à désassembler"
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:798
+msgid "Quality Inspection is required for the item {0} before completing the job card {1}"
+msgstr "Une inspection qualité est requise pour l'article {0} avant de terminer la carte de travail {1}"
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:809
+#: erpnext/manufacturing/doctype/job_card/job_card.py:818
+msgid "Quality Inspection {0} is not submitted for the item: {1}"
+msgstr "L'inspection qualité {0} n'est pas soumise pour l'article : {1}"
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:828
+#: erpnext/manufacturing/doctype/job_card/job_card.py:837
+msgid "Quality Inspection {0} is rejected for the item: {1}"
+msgstr "L'inspection qualité {0} est rejetée pour l'article : {1}"
+
+#. Label of the quantity (Float) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Quantity (Output Qty)"
+msgstr "Quantité (quantité produite)"
+
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:564
+msgid "Quantity is mandatory for the selected items."
+msgstr "La quantité est obligatoire pour les articles sélectionnés."
+
+#: erpnext/stock/dashboard/item_dashboard.js:285
+msgid "Quantity must be greater than zero"
+msgstr "La quantité doit être supérieure à zéro"
+
+#: erpnext/stock/dashboard/item_dashboard.js:290
+msgid "Quantity must be less than or equal to {0}"
+msgstr "La quantité doit être inférieure ou égale à {0}"
+
+#. Label of the rfq_and_purchase_order_settings_section (Section Break) field
+#. in DocType 'Supplier'
+#: erpnext/buying/doctype/supplier/supplier.json
+msgid "RFQ and Purchase Order Settings"
+msgstr "Paramètres des demandes de devis et des commandes d’achat"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:327
+msgid "Raw Materials Missing"
+msgstr "Matières premières manquantes"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/banking.json
+msgid "Reconciliation Statement"
+msgstr "État de rapprochement"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/financial_reports.json
+msgid "Registers"
+msgstr "Registres"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:140
+msgid "Remove Zero Counts"
+msgstr "Supprimer les décomptes nuls"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:161
+msgid "Removed {0} rows with zero document count. Please save to persist changes."
+msgstr "{0} lignes avec un nombre de documents nul ont été supprimées. Veuillez enregistrer pour conserver les modifications."
+
+#. Label of the repost_section (Section Break) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Repost"
+msgstr "Recomptabilisation"
+
+#. Label of the reposting_info_section (Section Break) field in DocType 'Repost
+#. Item Valuation'
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
+msgid "Reposting Item and Warehouse"
+msgstr "Recomptabilisation de l’article et de l’entrepôt"
+
+#. Label of the vouchers_based_on_item_and_warehouse_section (Section Break)
+#. field in DocType 'Repost Item Valuation'
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
+msgid "Reposting Vouchers"
+msgstr "Recomptabilisation des pièces justificatives"
+
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.js:149
+msgid "Reposting Vouchers Progress"
+msgstr "Progression de la recomptabilisation des pièces justificatives"
+
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.js:123
+msgid "Reposting for Item-Wh Completed {0}%"
+msgstr "Recomptabilisation de l’article et de l’entrepôt terminée à {0}%"
+
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.js:141
+msgid "Reposting for Vouchers Completed {0}%"
+msgstr "Recomptabilisation des pièces justificatives terminée à {0}%"
+
+#. Label of the reserved_inventory_section (Section Break) field in DocType
+#. 'Bin'
+#: erpnext/stock/doctype/bin/bin.json
+msgid "Reserved Inventory"
+msgstr "Inventaire réservé"
+
+#: erpnext/buying/report/subcontracted_raw_materials_to_be_transferred/subcontracted_raw_materials_to_be_transferred.py:44
+msgid "Returned Quantity"
+msgstr "Quantité retournée"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Review Accounts Settings'
+#: erpnext/accounts/onboarding_step/review_accounts_settings/review_accounts_settings.json
+msgid "Review Accounts Settings"
+msgstr "Revoir les paramètres de comptabilité"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Review Buying Settings'
+#: erpnext/buying/onboarding_step/review_buying_settings/review_buying_settings.json
+msgid "Review Buying Settings"
+msgstr "Revoir les paramètres d’achat"
+
+#. Title of an Onboarding Step
+#: erpnext/accounts/onboarding_step/chart_of_accounts/chart_of_accounts.json
+msgid "Review Chart of Accounts"
+msgstr "Revoir le plan comptable"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Review Manufacturing Settings'
+#: erpnext/manufacturing/onboarding_step/review_manufacturing_settings/review_manufacturing_settings.json
+msgid "Review Manufacturing Settings"
+msgstr "Revoir les paramètres de production"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Review Selling Settings'
+#: erpnext/selling/onboarding_step/review_selling_settings/review_selling_settings.json
+msgid "Review Selling Settings"
+msgstr "Revoir les paramètres de vente"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Review Stock Settings'
+#: erpnext/stock/onboarding_step/review_stock_settings/review_stock_settings.json
+msgid "Review Stock Settings"
+msgstr "Revoir les paramètres du stock"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Review System Settings'
+#: erpnext/setup/onboarding_step/review_system_settings/review_system_settings.json
+msgid "Review System Settings"
+msgstr "Revoir les paramètres système"
+
+#. Label of the role_to_override_stop_action (Link) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Role allowed to override stop action"
+msgstr "Rôle autorisé à outrepasser l’action Stop"
+
+#: erpnext/controllers/subcontracting_inward_controller.py:616
+msgid "Row #{0}: Cannot cancel this Manufacturing Stock Entry as quantity of Secondary Item {1} produced cannot be less than quantity delivered."
+msgstr "Ligne # {0} : impossible d’annuler cette écriture de stock de fabrication, car la quantité produite de l’article secondaire {1} ne peut pas être inférieure à la quantité livrée."
+
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.py:78
+msgid "Row #{0}: Cannot create entry with different taxable AND withholding document links."
+msgstr "Ligne # {0} : impossible de créer une écriture avec des liens vers des documents imposables et de retenue différents."
+
+#: erpnext/controllers/accounts_controller.py:3769
+msgid "Row #{0}: Cannot delete item {1} which is already ordered against this Sales Order."
+msgstr "Ligne #{0} : impossible de supprimer l'article {1} qui a déjà été commandé dans le cadre de cette commande client."
+
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.py:211
+msgid "Row #{0}: Could not find enough {1} entries to match. Remaining amount: {2}"
+msgstr "Ligne #{0} : impossible de trouver suffisamment d'écritures {1} correspondantes. Montant restant : {2}"
+
+#: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.py:61
+msgid "Row #{0}: Dates overlapping with other row in group {1}"
+msgstr "Ligne #{0} : les dates se chevauchent avec celles d'une autre ligne du groupe {1}"
+
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:584
+msgid "Row #{0}: Finished Good reference is mandatory for Secondary Item {1}."
+msgstr "Ligne #{0} : la référence du produit fini est obligatoire pour l'article secondaire {1}."
+
+#: erpnext/assets/doctype/asset/asset.py:664
+msgid "Row #{0}: Frequency of Depreciation must be greater than zero"
+msgstr "Ligne #{0} : la fréquence d'amortissement doit être supérieure à zéro"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1634
+msgid "Row #{0}: Item {1} cannot be transferred more than {2} against {3} {4}"
+msgstr "Ligne #{0} : l'article {1} ne peut pas être transféré en quantité supérieure à {2} pour {3} {4}"
+
+#: erpnext/controllers/stock_controller.py:153
+msgid "Row #{0}: Item {1} has zero rate but '{2}' is not enabled."
+msgstr "Ligne #{0} : l'article {1} a un taux de valorisation nul, mais « {2} » n'est pas activé."
+
+#: erpnext/manufacturing/doctype/bom/bom.py:346
+#, no-python-format
+msgid "Row #{0}: Process Loss Percentage should be less than 100% for {1} Item {2}"
+msgstr "Ligne #{0} : le pourcentage de perte de processus doit être inférieur à 100 % pour l'article de type {1} {2}"
+
+#: erpnext/manufacturing/doctype/bom/bom.py:339
+msgid "Row #{0}: Quantity should be greater than 0 for {1} Item {2}"
+msgstr "Ligne #{0} : la quantité doit être supérieure à zéro pour l'article de type {1} {2}"
+
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:577
+msgid "Row #{0}: Rejected Qty cannot be set for Secondary Item {1}."
+msgstr "Ligne #{0} : une quantité rejetée ne peut pas être définie pour l'article secondaire {1}."
+
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:572
+msgid "Row #{0}: Secondary Item Qty cannot be zero"
+msgstr "Ligne #{0} : la quantité de l'article secondaire ne peut pas être nulle"
+
+#: erpnext/controllers/selling_controller.py:296
+msgid ""
+"Row #{0}: Selling rate for item {1} is lower than its {2}.\n"
+"\t\t\t\t\tSelling {3} should be atleast {4}.<br><br>Alternatively,\n"
+"\t\t\t\t\tyou can disable '{5}' in {6} to bypass\n"
+"\t\t\t\t\tthis validation."
+msgstr "Ligne #{0} : le prix de vente de l'article {1} est inférieur à son {2}.\n\t\t\t\t\tLe montant de vente {3} doit être d'au moins {4}.<br><br>Sinon,\n\t\t\t\t\tvous pouvez désactiver « {5} » dans {6} pour contourner\n\t\t\t\t\tcette validation."
+
+#: erpnext/assets/doctype/asset/asset.py:660
+msgid "Row #{0}: Total Number of Depreciations must be greater than zero"
+msgstr "Ligne #{0} : le nombre total d’amortissements doit être supérieur à zéro"
+
+#: erpnext/controllers/stock_controller.py:105
+msgid "Row #{0}: Warehouse {1} does not match with the warehouse {2} in Serial and Batch Bundle {3}."
+msgstr "Ligne #{0} : l’entrepôt {1} ne correspond pas à l’entrepôt {2} dans l’ensemble de n° de série et lot {3}."
+
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.py:94
+msgid "Row #{0}: Withholding Amount {1} does not match calculated amount {2}."
+msgstr "Ligne #{0} : le montant retenu {1} ne correspond pas au montant calculé {2}."
+
+#: erpnext/controllers/accounts_controller.py:3897
+msgid "Row #{0}:Quantity for Item {1} cannot be zero."
+msgstr "Ligne n° {0} : la quantité de l’article {1} ne peut pas être nulle."
+
+#: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py:113
+msgid "Row #{}: Either Party ID or Party Name is required"
+msgstr "Ligne #{} : l’identifiant du tiers ou le nom du tiers est requis"
+
+#: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py:123
+msgid "Row #{}: Party ID is required"
+msgstr "Ligne #{} : l’identifiant du tiers est requis"
+
+#: erpnext/assets/doctype/asset/asset.py:609
+msgid "Row {0}: Expected Value After Useful Life cannot be negative"
+msgstr "Ligne {0} : la valeur attendue après la durée de vie utile ne peut pas être négative"
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:187
+msgid "Row {0}: Expense Account {1} is linked to company {2}. Please select an account belonging to company {3}."
+msgstr "Ligne {0} : le compte de charges {1} est associé à la société {2}. Veuillez sélectionner un compte appartenant à la société {3}."
+
+#: erpnext/controllers/subcontracting_controller.py:183
+msgid "Row {0}: Item {1} must be linked to a {2}."
+msgstr "Ligne {0} : l’article {1} doit être associé à un {2}."
+
+#: erpnext/manufacturing/doctype/bom/bom.py:1245
+msgid "Row {0}: Operation time should be greater than 0 for operation {1}"
+msgstr "Ligne {0} : le temps d’opération doit être supérieur à 0 pour l’opération {1}"
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:885
+msgid "Row {0}: Sales Invoice {1} is already created for {2}"
+msgstr "Ligne {0} : la facture de vente {1} a déjà été créée pour {2}"
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:170
+msgid "Row {0}: Warehouse is required"
+msgstr "Ligne {0} : un entrepôt est requis"
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:179
+msgid "Row {0}: Warehouse {1} is linked to company {2}. Please select a warehouse belonging to company {3}."
+msgstr "Ligne {0} : l'entrepôt {1} est associé à la société {2}. Veuillez sélectionner un entrepôt appartenant à la société {3}."
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:134
+msgid "Row {0}: {1} {2} is linked to company {3}. Please select a document belonging to company {4}."
+msgstr "Ligne {0} : le document {1} {2} est associé à la société {3}. Veuillez sélectionner un document appartenant à la société {4}."
+
+#: erpnext/public/js/utils/naming_series_dialog.js:54
+msgid "Rules for configuring series"
+msgstr "Règles de configuration des séries"
+
+#: erpnext/selling/doctype/sales_order/sales_order.py:1819
+#: erpnext/selling/doctype/sales_order/sales_order.py:1832
+msgid "Sales Order {0} is not available for production"
+msgstr "La commande client {0} n'est pas disponible pour la production"
+
+#. Label of the sales_tax_withholding_category (Link) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Sales Tax Withholding Category"
+msgstr "Catégorie de taxation à la source des ventes"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/accounts_setup.json
+msgid "Sales Taxes"
+msgstr "Taxes de vente"
+
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.js:269
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:535
+msgid "Sample Retention Stock Entry"
+msgstr "Créer une entrée de stock de rétention d'échantillon"
+
+#: erpnext/public/js/controllers/transaction.js:492
+msgid "Schedule Name"
+msgstr "Nom de l'échéancier"
+
+#. Option for the 'Type' (Select) field in DocType 'BOM Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Job Card Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Stock Entry Detail'
+#. Option for the 'Type' (Select) field in DocType 'Subcontracting Inward Order
+#. Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Subcontracting Receipt
+#. Item'
+#: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json
+#: erpnext/manufacturing/doctype/job_card_secondary_item/job_card_secondary_item.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_secondary_item/subcontracting_inward_order_secondary_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Scrap"
+msgstr "Rebut"
+
+#. Label of the item_code (Link) field in DocType 'Job Card Secondary Item'
+#: erpnext/manufacturing/doctype/job_card_secondary_item/job_card_secondary_item.json
+msgid "Secondary Item Code"
+msgstr "Code de l'article secondaire"
+
+#. Label of the item_name (Data) field in DocType 'Job Card Secondary Item'
+#: erpnext/manufacturing/doctype/job_card_secondary_item/job_card_secondary_item.json
+msgid "Secondary Item Name"
+msgstr "Nom de l'article secondaire"
+
+#. Label of the secondary_items (Table) field in DocType 'BOM'
+#. Label of the secondary_items (Table) field in DocType 'Job Card'
+#. Label of the secondary_items_section (Tab Break) field in DocType 'Job Card'
+#. Label of the secondary_items (Table) field in DocType 'Subcontracting Inward
+#. Order'
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
+msgid "Secondary Items"
+msgstr "Articles secondaires"
+
+#. Label of the secondary_items_cost (Currency) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Secondary Items Cost"
+msgstr "Coût des articles secondaires"
+
+#. Label of the base_secondary_items_cost (Currency) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Secondary Items Cost (Company Currency)"
+msgstr "Coût des articles secondaires (devise de la société)"
+
+#. Label of the secondary_items_cost_per_qty (Currency) field in DocType
+#. 'Subcontracting Receipt Item'
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Secondary Items Cost Per Qty"
+msgstr "Coût des articles secondaires par quantité"
+
+#. Label of the scrap_items_generated_section (Section Break) field in DocType
+#. 'Subcontracting Inward Order'
+#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
+msgid "Secondary Items Generated"
+msgstr "Articles secondaires générés"
+
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:500
+msgid "Select Items to Receive"
+msgstr "Sélectionner les articles à recevoir"
+
+#: erpnext/public/js/controllers/transaction.js:478
+msgid "Select Payment Schedule"
+msgstr "Sélectionner le calendrier de paiement"
+
+#: erpnext/assets/doctype/asset/asset.js:633
+msgid "Sell Qty"
+msgstr "Qté à vendre"
+
+#: erpnext/assets/doctype/asset/asset.js:649
+msgid "Sell quantity cannot exceed the asset quantity"
+msgstr "La quantité à vendre ne peut pas dépasser la quantité de l’actif"
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1409
+msgid "Sell quantity cannot exceed the asset quantity. Asset {0} has only {1} item(s)."
+msgstr "La quantité à vendre ne peut pas dépasser la quantité de l’actif. L’actif {0} ne contient que {1} article(s)."
+
+#: erpnext/assets/doctype/asset/asset.js:645
+msgid "Sell quantity must be greater than zero"
+msgstr "La quantité à vendre doit être supérieure à zéro"
+
+#. Title of the Module Onboarding 'Selling Onboarding'
+#: erpnext/selling/module_onboarding/selling_onboarding/selling_onboarding.json
+msgid "Selling Setup"
+msgstr "Configuration des ventes"
+
+#. Label of the section_break_jcmx (Section Break) field in DocType 'Job Card'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+msgid "Serial / Batch"
+msgstr "N° de série / lot"
+
+#. Label of the serial_nos_and_batches (Section Break) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Serial Nos / Batches"
+msgstr "N° de série / lots"
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:152
+msgid "Serial and Batch No for Item Disabled"
+msgstr "N° de série et lot pour l’article désactivé"
+
+#. Label of the set_op_cost_and_secondary_items_from_sub_assemblies (Check)
+#. field in DocType 'Manufacturing Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "Set Operating Cost / Secondary Items From Sub-assemblies"
+msgstr "Définir le coût d’exploitation / les articles secondaires à partir des sous-assemblages"
+
+#. Label of the set_zero_rate_for_expired_batch (Check) field in DocType
+#. 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Set incoming rate as zero for expired Batch"
+msgstr "Définir le prix d’entrée à zéro pour les lots expirés"
+
+#. Description of the 'Close Issue After Days' (Int) field in DocType 'Support
+#. Settings'
+#: erpnext/support/doctype/support_settings/support_settings.json
+msgid "Set this value to 0 to disable the feature."
+msgstr "Définissez cette valeur sur 0 pour désactiver la fonctionnalité."
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Setup Company'
+#: erpnext/setup/onboarding_step/setup_company/setup_company.json
+msgid "Setup Company"
+msgstr "Configurer la société"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Setup Email Account'
+#: erpnext/setup/onboarding_step/setup_email_account/setup_email_account.json
+msgid "Setup Email Account"
+msgstr "Configurer le compte e-mail"
+
+#. Title of the Module Onboarding 'Organization Onboarding'
+#: erpnext/setup/module_onboarding/organization_onboarding/organization_onboarding.json
+msgid "Setup Organization"
+msgstr "Configurer l’organisation"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Setup Role Permissions'
+#: erpnext/setup/onboarding_step/setup_role_permissions/setup_role_permissions.json
+msgid "Setup Role Permissions"
+msgstr "Configurer les autorisations des rôles"
+
+#. Label of an action in the Onboarding Step 'Setup Sales taxes'
+#: erpnext/accounts/onboarding_step/setup_sales_taxes/setup_sales_taxes.json
+msgid "Setup Sales Taxes"
+msgstr "Configurer les taxes de vente"
+
+#. Title of an Onboarding Step
+#: erpnext/accounts/onboarding_step/setup_sales_taxes/setup_sales_taxes.json
+msgid "Setup Sales taxes"
+msgstr "Configurer les taxes de vente"
+
+#. Title of an Onboarding Step
+#: erpnext/stock/onboarding_step/setup_warehouse/setup_warehouse.json
+msgid "Setup Warehouse"
+msgstr "Configurer l’entrepôt"
+
+#: erpnext/manufacturing/report/bom_stock_analysis/bom_stock_analysis.js:26
+msgid "Show availability of exploded items"
+msgstr "Afficher la disponibilité des articles éclatés"
+
+#: erpnext/manufacturing/doctype/bom/bom.py:323
+msgid "Since you have enabled 'Track Semi Finished Goods', at least one operation must have 'Is Final Finished Good' checked. For that set the FG / Semi FG Item as {0} against an operation."
+msgstr "Puisque vous avez activé « Suivi des produits semi-finis », au moins une opération doit avoir coché « Produit fini final ». Pour cela, définissez l’article produit fini / produit semi-fini sur {0} pour une opération."
+
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:112
+msgid "Since {0} has 'Update Stock' disabled, you cannot create repost item valuation against it"
+msgstr "Puisque l’option « Mettre à jour le stock » est désactivée pour {0}, vous ne pouvez pas créer de recomptabilisation de la valorisation des articles pour celui-ci"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:563
+msgid "Skipped {0} DocType(s):<br>{1}"
+msgstr "Types de document ignorés ({0}) :<br>{1}"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1032
+msgid "Source Manufacture Entry"
+msgstr "Écriture de production source"
+
+#. Label of the source_stock_entry (Link) field in DocType 'Stock Entry'
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "Source Stock Entry (Manufacture)"
+msgstr "Écriture de stock source (production)"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:912
+msgid "Source Stock Entry {0} belongs to Work Order {1}, not {2}. Please use a manufacture entry from the same Work Order."
+msgstr "L’écriture de stock source {0} appartient à l’ordre de fabrication {1}, et non à {2}. Veuillez utiliser une écriture de production du même ordre de fabrication."
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:2370
+msgid "Source Stock Entry {0} has no finished goods quantity"
+msgstr "L’écriture de stock source {0} ne contient aucune quantité de produits finis"
+
+#. Label of the section_break_dfoc (Section Break) field in DocType 'Job Card'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+msgid "Status and Reference"
+msgstr "Statut et référence"
+
+#. Title of the Module Onboarding 'Stock Onboarding'
+#: erpnext/stock/module_onboarding/stock_onboarding/stock_onboarding.json
+msgid "Stock Setup"
+msgstr "Configuration du stock"
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:737
+msgid "Stock Update Not Allowed"
+msgstr "Mise à jour du stock non autorisée"
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:734
+msgid "Stock cannot be updated for Purchase Invoice {0} because a Purchase Receipt {1} has already been created for this transaction. Please disable the 'Update Stock' checkbox in the Purchase Invoice and save the invoice."
+msgstr "Le stock ne peut pas être mis à jour pour la facture d’achat {0}, car un reçu d’achat {1} a déjà été créé pour cette transaction. Veuillez désactiver la case « Mettre à jour le stock » dans la facture d’achat et enregistrer la facture."
+
+#: erpnext/stock/doctype/warehouse/warehouse.py:124
+msgid "Stock entries exist with the old account. Changing the account may lead to a mismatch between the warehouse closing balance and the account closing balance. The overall closing balance will still match, but not for the specific account."
+msgstr "Des écritures de stock existent avec l’ancien compte. La modification du compte peut entraîner une différence entre le solde de clôture de l’entrepôt et celui du compte. Le solde de clôture global restera identique, mais pas pour ce compte spécifique."
+
+#. Name of a DocType
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_secondary_item/subcontracting_inward_order_secondary_item.json
+msgid "Subcontracting Inward Order Secondary Item"
+msgstr "Article secondaire de la commande d’entrée de sous-traitance"
+
+#. Title of the Module Onboarding 'Subcontracting Onboarding'
+#: erpnext/subcontracting/module_onboarding/subcontracting_onboarding/subcontracting_onboarding.json
+msgid "Subcontracting Setup"
+msgstr "Configuration de la sous-traitance"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/financial_reports.json
+msgid "Supplier Ledger"
+msgstr "Grand livre des fournisseurs"
+
+#: erpnext/public/js/utils/naming_series_dialog.js:89
+msgid "Supported Variables:"
+msgstr "Variables prises en charge :"
+
+#: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:237
+#: erpnext/accounts/report/tds_computation_summary/tds_computation_summary.py:84
+msgid "Tax Rate %"
+msgstr "Taux d’imposition %"
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/selling.json
+msgid "Tax Template"
+msgstr "Modèle de taxe"
+
+#. Label of the tax_withholding_entries (Table) field in DocType 'Journal
+#. Entry'
+#. Label of the tax_withholding_entries (Table) field in DocType 'Payment
+#. Entry'
+#. Label of the tax_withholding_entries (Table) field in DocType 'Purchase
+#. Invoice'
+#. Label of the tax_withholding_entries (Table) field in DocType 'Sales
+#. Invoice'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+msgid "Tax Withholding Entries"
+msgstr "Écritures de retenue d’impôt"
+
+#. Label of the section_tax_withholding_entry (Section Break) field in DocType
+#. 'Payment Entry'
+#. Label of the section_tax_withholding_entry (Section Break) field in DocType
+#. 'Purchase Invoice'
+#. Label of the section_tax_withholding_entry (Section Break) field in DocType
+#. 'Sales Invoice'
+#. Name of a DocType
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Tax Withholding Entry"
+msgstr "Écriture de retenue d’impôt"
+
+#. Label of the tax_withholding_group (Link) field in DocType 'Journal Entry'
+#. Label of the tax_withholding_group (Link) field in DocType 'Payment Entry'
+#. Label of the tax_withholding_group (Link) field in DocType 'Purchase
+#. Invoice'
+#. Label of the tax_withholding_group (Link) field in DocType 'Sales Invoice'
+#. Label of the tax_withholding_group (Link) field in DocType 'Tax Withholding
+#. Entry'
+#. Name of a DocType
+#. Label of the tax_withholding_group (Link) field in DocType 'Tax Withholding
+#. Rate'
+#. Label of the tax_withholding_group (Link) field in DocType 'Supplier'
+#. Label of the tax_withholding_group (Link) field in DocType 'Customer'
+#. Label of a Workspace Sidebar Item
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+#: erpnext/accounts/doctype/tax_withholding_group/tax_withholding_group.json
+#: erpnext/accounts/doctype/tax_withholding_rate/tax_withholding_rate.json
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/selling/doctype/customer/customer.json
+#: erpnext/workspace_sidebar/taxes.json
+msgid "Tax Withholding Group"
+msgstr "Groupe de retenue d’impôt"
+
+#. Description of the 'Only Deduct Tax On Excess Amount ' (Check) field in
+#. DocType 'Tax Withholding Category'
+#: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.json
+msgid "Tax withheld only for amount exceeding cumulative threshold"
+msgstr "Retenue d’impôt uniquement sur le montant dépassant le seuil cumulatif"
+
+#. Label of the taxable_date (Date) field in DocType 'Tax Withholding Entry'
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Taxable Date"
+msgstr "Date imposable"
+
+#. Label of the taxable_name (Dynamic Link) field in DocType 'Tax Withholding
+#. Entry'
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Taxable Document Name"
+msgstr "Nom du document taxable"
+
+#. Label of the taxable_doctype (Link) field in DocType 'Tax Withholding Entry'
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Taxable Document Type"
+msgstr "Type de document taxable"
+
+#: erpnext/regional/report/vat_audit_report/vat_audit_report.py:43
+msgid "The company {0} is not in South Africa. VAT Audit Report is only available for companies in South Africa."
+msgstr "La société {0} n’est pas située en Afrique du Sud. Le rapport d’audit de la TVA est uniquement disponible pour les sociétés situées en Afrique du Sud."
+
+#. Description of the 'Item to Manufacture' (Link) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "The final item that will be produced using this BOM."
+msgstr "L’article final qui sera produit à l’aide de cette nomenclature."
+
+#: erpnext/accounts/notification/notification_for_new_fiscal_year/notification_for_new_fiscal_year.html:40
+msgid "The fiscal year has been automatically created in a Disabled state to maintain consistency with the previous fiscal year's status."
+msgstr "L’exercice fiscal a été créé automatiquement à l’état Désactivé afin de garantir la cohérence avec le statut de l’exercice fiscal précédent."
+
+#: erpnext/accounts/doctype/payment_request/payment_request.py:622
+msgid ""
+"The following payment schedule(s) already exist:\n"
+"{0}"
+msgstr "Les calendriers de paiement suivants existent déjà :\n{0}"
+
+#. Description of the 'How often should sales data be updated in
+#. Company/Project?' (Select) field in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "The frequency at which project progress and company transaction details will be updated. Set it to daily or monthly if you post a lot of transactions."
+msgstr "Fréquence à laquelle l’avancement du projet et les détails des transactions de la société seront mis à jour. Définissez-la sur Quotidienne ou Mensuelle si vous comptabilisez beaucoup de transactions."
+
+#: erpnext/controllers/accounts_controller.py:203
+msgid "The outstanding amount {0} in {1} is lesser than {2}. Updating the outstanding to this invoice."
+msgstr "Le montant dû {0} dans {1} est inférieur à {2}. Mise à jour du montant dû pour cette facture."
+
+#: erpnext/assets/doctype/asset/asset.js:654
+msgid "The sell quantity is less than the total asset quantity. The remaining quantity will be split into a new asset. This action cannot be undone. <br><br><b>Do you want to continue?</b>"
+msgstr "La quantité vendue est inférieure à la quantité totale de l’actif. La quantité restante sera répartie dans un nouvel actif. Cette action ne peut pas être annulée. <br><br><b>Voulez-vous continuer&nbsp;?</b>"
+
+#: erpnext/edi/doctype/code_list/code_list_import.py:43
+msgid "The uploaded file could not be parsed as a genericode XML document."
+msgstr "Le fichier téléchargé n’a pas pu être analysé comme un document XML Genericode."
+
+#: erpnext/stock/doctype/item/item.js:1171
+msgid "There are two options to maintain valuation of stock. FIFO (first in - first out) and Moving Average. To understand this topic in detail please visit <a href='https://docs.frappe.io/erpnext/user/manual/en/calculation-of-valuation-rate-in-fifo-and-moving-average' target='_blank'>Item Valuation, FIFO and Moving Average.</a>"
+msgstr "Deux options permettent de gérer la valorisation du stock : FIFO (premier entré, premier sorti) et moyenne mobile. Pour en savoir plus sur ce sujet, veuillez consulter <a href='https://docs.frappe.io/erpnext/user/manual/en/calculation-of-valuation-rate-in-fifo-and-moving-average' target='_blank'>la valorisation des articles, FIFO et moyenne mobile.</a>"
+
+#: erpnext/stock/doctype/item/item.js:178
+msgid "This Item is a Template and cannot be used in transactions.<br>All fields present in the 'Copy Fields to Variant' table in Item Variant Settings will be copied to its variant items."
+msgstr "Cet article est un modèle et ne peut pas être utilisé dans les transactions.<br>Tous les champs présents dans la table « Champs à copier dans la variante » des paramètres des variantes d’article seront copiés dans ses articles variantes."
+
+#. Description of the 'Allow Sales Order creation for expired Quotation'
+#. (Check) field in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "This allows creation of sales orders from quotations that have passed their expiration date, providing flexibility in processing orders despite outdated quotes."
+msgstr "Cela permet de créer des commandes clients à partir de devis dont la date d'expiration est dépassée, offrant une plus grande flexibilité dans le traitement des commandes malgré des devis obsolètes."
+
+#. Header text in the CRM Workspace
+#: erpnext/crm/workspace/crm/crm.json
+msgid "This module is scheduled for deprecation and will be completely removed in version 17, please use <a href=\"https://frappe.io/crm\">Frappe CRM</a> instead."
+msgstr "Ce module doit être déprécié et sera complètement supprimé dans la version 17. Veuillez utiliser <a href=\"https://frappe.io/crm\">Frappe CRM</a> à la place."
+
+#. Header text in the Support Workspace
+#: erpnext/support/workspace/support/support.json
+msgid "This module is scheduled for deprecation and will be completely removed in version 17, please use <a href=\"https://frappe.io/helpdesk\">Frappe Helpdesk</a> instead."
+msgstr "Ce module doit être déprécié et sera complètement supprimé dans la version 17. Veuillez utiliser <a href=\"https://frappe.io/helpdesk\">Frappe Helpdesk</a> à la place."
+
+#. Option for the 'Under Withheld Reason' (Select) field in DocType 'Tax
+#. Withholding Entry'
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Threshold Exemption"
+msgstr "Exemption de seuil"
+
+#. Label of the section_break_18 (Section Break) field in DocType 'Project'
+#. Label of the sb_timeline (Section Break) field in DocType 'Task'
+#: erpnext/projects/doctype/project/project.json
+#: erpnext/projects/doctype/task/task.json
+msgid "Timeline"
+msgstr "Chronologie"
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:894
+msgid "Timesheet {0} cannot be invoiced in its current state"
+msgstr "La feuille de temps {0} ne peut pas être facturée dans son état actuel."
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:118
+msgid "To Delete list generated with {0} DocTypes"
+msgstr "La liste des éléments à supprimer a été générée avec {0} types de documents."
+
+#. Description of the 'Set Operating Cost / Secondary Items From
+#. Sub-assemblies' (Check) field in DocType 'Manufacturing Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "To include sub-assembly costs and secondary items in Finished Goods on a work order without using a job card, when the 'Use Multi-Level BOM' option is enabled."
+msgstr "Pour inclure les coûts de sous-assemblage et les articles secondaires dans les produits finis d'un ordre de fabrication sans utiliser de fiche de travail, lorsque l'option « Utiliser une nomenclature à plusieurs niveaux » est activée."
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:190
+msgid "Total Completed Qty is required for Job Card {0}, please start and complete the job card before submission"
+msgstr "La quantité totale terminée est requise pour la carte de travail {0}. Veuillez démarrer et terminer la carte de travail avant de la soumettre."
+
+#. Label of the total_vouchers (Int) field in DocType 'Repost Item Valuation'
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
+msgid "Total Ledgers"
+msgstr "Total des grands livres"
+
+#: erpnext/accounts/report/tds_computation_summary/tds_computation_summary.py:86
+msgid "Total Taxable Amount"
+msgstr "Montant total taxable"
+
+#. Label of the base_totals_section (Section Break) field in DocType 'Purchase
+#. Invoice'
+#. Label of the base_totals_section (Section Break) field in DocType 'Sales
+#. Invoice'
+#. Label of the base_totals_section (Section Break) field in DocType 'Purchase
+#. Order'
+#. Label of the base_totals_section (Section Break) field in DocType 'Sales
+#. Order'
+#. Label of the base_totals_section (Section Break) field in DocType 'Delivery
+#. Note'
+#. Label of the base_totals_section (Section Break) field in DocType 'Purchase
+#. Receipt'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Totals (Company Currency)"
+msgstr "Totaux (devise de la société)"
+
+#: erpnext/setup/doctype/company/company.py:1091
+msgid "Transaction Deletion Document {0} has been triggered for company {1}"
+msgstr "Le document de suppression des transactions {0} a été déclenché pour la société {1}"
+
+#. Name of a DocType
+#: erpnext/setup/doctype/transaction_deletion_record_to_delete/transaction_deletion_record_to_delete.json
+msgid "Transaction Deletion Record To Delete"
+msgstr "Enregistrement de suppression de transaction à supprimer"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:1100
+msgid "Transaction Deletion Record {0} is already running. {1}"
+msgstr "L’enregistrement de suppression de transaction {0} est déjà en cours d’exécution. {1}"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:1119
+msgid "Transaction Deletion Record {0} is currently deleting {1}. Cannot save documents until deletion completes."
+msgstr "L’enregistrement de suppression de transaction {0} supprime actuellement {1}. Impossible d’enregistrer des documents tant que la suppression n’est pas terminée."
+
+#: erpnext/stock/report/negative_batch_report/negative_batch_report.py:60
+msgid "Transaction Qty"
+msgstr "Qté de transaction"
+
+#. Label of the single_threshold (Float) field in DocType 'Tax Withholding
+#. Rate'
+#: erpnext/accounts/doctype/tax_withholding_rate/tax_withholding_rate.json
+msgid "Transaction Threshold"
+msgstr "Seuil de transaction"
+
+#: erpnext/assets/doctype/asset_movement/asset_movement.py:65
+msgid "Transaction date can't be earlier than previous movement date"
+msgstr "La date de la transaction ne peut pas être antérieure à la date du mouvement précédent"
+
+#. Description of the 'Applicable For' (Section Break) field in DocType 'Tax
+#. Withholding Entry'
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Transaction for which tax is withheld"
+msgstr "Transaction pour laquelle la taxe est retenue"
+
+#. Description of the 'Deducted From' (Section Break) field in DocType 'Tax
+#. Withholding Entry'
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Transaction from which tax is withheld"
+msgstr "Transaction sur laquelle la taxe est retenue"
+
+#. Label of the utm_analytics_section (Section Break) field in DocType 'POS
+#. Invoice'
+#. Label of the utm_analytics_section (Section Break) field in DocType 'Sales
+#. Invoice'
+#. Label of the utm_analytics_section (Section Break) field in DocType
+#. 'Quotation'
+#. Label of the utm_analytics_section (Section Break) field in DocType 'Sales
+#. Order'
+#. Label of the utm_analytics_section (Section Break) field in DocType
+#. 'Delivery Note'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+msgid "UTM Analytics"
+msgstr "Analyses UTM"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:466
+msgid "Unable to fetch DocType details. Please contact system administrator."
+msgstr "Impossible de récupérer les détails du type de document. Veuillez contacter l’administrateur système."
+
+#. Option for the 'Status' (Select) field in DocType 'Tax Withholding Entry'
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Under Withheld"
+msgstr "Retenue insuffisante"
+
+#. Label of the under_withheld_reason (Select) field in DocType 'Tax
+#. Withholding Entry'
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Under Withheld Reason"
+msgstr "Motif de retenue insuffisante"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:935
+msgid "Unexpected Naming Series Pattern"
+msgstr "Modèle de série de numérotation inattendu"
+
+#. Label of the uom (Link) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Unit Of Measure"
+msgstr "Unité de mesure"
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_engine.py:257
+msgid "Unsupported Feature"
+msgstr "Fonctionnalité non prise en charge"
+
+#. Label of the use_posting_datetime_for_naming_documents (Check) field in
+#. DocType 'Global Defaults'
+#: erpnext/setup/doctype/global_defaults/global_defaults.json
+msgid "Use Posting Datetime for Naming Documents"
+msgstr "Utiliser la date et l’heure de comptabilisation pour numéroter les documents"
+
+#. Label of the fallback_to_default_price_list (Check) field in DocType
+#. 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Use prices from Default Price List as fallback"
+msgstr "Utiliser les prix de la liste de prix par défaut comme solution de repli"
+
+#. Description of the 'Track Semi Finished Goods' (Check) field in DocType
+#. 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Users can make manufacture entry against Job Cards"
+msgstr "Les utilisateurs peuvent créer une entrée de production à partir des cartes de travail"
+
+#. Label of the validate_selling_price (Check) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Validate selling price for Item against purchase or valuation rate"
+msgstr "Valider le prix de vente de l’article par rapport au prix d’achat ou au taux de valorisation"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'View Balance Sheet'
+#. Description of a report in the Onboarding Step 'View Balance Sheet'
+#: erpnext/accounts/onboarding_step/view_balance_sheet/view_balance_sheet.json
+#: erpnext/assets/onboarding_step/view_balance_sheet/view_balance_sheet.json
+msgid "View Balance Sheet"
+msgstr "Voir le bilan"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'View Project Summary'
+#. Description of a report in the Onboarding Step 'View Project Summary'
+#: erpnext/projects/onboarding_step/view_project_summary/view_project_summary.json
+msgid "View Project Summary"
+msgstr "Voir le résumé du projet"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'View Purchase Order Analysis'
+#. Description of a report in the Onboarding Step 'View Purchase Order
+#. Analysis'
+#: erpnext/buying/onboarding_step/view_purchase_order_analysis/view_purchase_order_analysis.json
+msgid "View Purchase Order Analysis"
+msgstr "Voir l’analyse des commandes d’achat"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'View Sales Order Analysis'
+#. Description of a report in the Onboarding Step 'View Sales Order Analysis'
+#: erpnext/selling/onboarding_step/view_sales_order_analysis/view_sales_order_analysis.json
+msgid "View Sales Order Analysis"
+msgstr "Voir l’analyse des commandes clients"
+
+#. Label of an action in the Onboarding Step 'View Stock Balance Report'
+#: erpnext/stock/onboarding_step/view_stock_balance_report/view_stock_balance_report.json
+#: erpnext/stock/report/stock_ledger/stock_ledger.js:139
+msgid "View Stock Balance"
+msgstr "Voir le solde du stock"
+
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'View Stock Balance Report'
+#. Description of a report in the Onboarding Step 'View Stock Balance Report'
+#: erpnext/selling/onboarding_step/view_stock_balance_report/view_stock_balance_report.json
+#: erpnext/stock/onboarding_step/view_stock_balance_report/view_stock_balance_report.json
+msgid "View Stock Balance Report"
+msgstr "Voir le rapport de solde des stocks"
+
+#: erpnext/stock/report/stock_balance/stock_balance.js:156
+msgid "View Stock Ledger"
+msgstr "Voir le livre d’inventaire"
+
+#. Label of an action in the Onboarding Step 'View Work Order Summary Report'
+#: erpnext/manufacturing/onboarding_step/view_work_order_summary_report/view_work_order_summary_report.json
+msgid "View Work Order Summary"
+msgstr "Voir le résumé de l’ordre de fabrication"
+
+#. Title of an Onboarding Step
+#: erpnext/manufacturing/onboarding_step/view_work_order_summary_report/view_work_order_summary_report.json
+msgid "View Work Order Summary Report"
+msgstr "Voir le rapport de résumé de l’ordre de fabrication"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:216
+msgid "Virtual DocType"
+msgstr "Type de document virtuel"
+
+#: erpnext/manufacturing/report/bom_stock_analysis/bom_stock_analysis.py:286
+msgid "Warehouse is required to get producible FG Items"
+msgstr "Un entrepôt est requis pour obtenir les produits finis fabricables"
+
+#. Description of the 'Maintain same rate throughout sales cycle' (Check) field
+#. in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Warn or stop if Item rate is changed in Delivery Notes and Sales Invoices generated from a Sales Order."
+msgstr "Avertir ou bloquer si le taux de l’article est modifié dans les bons de livraison et les factures clients générés à partir d’une commande client."
+
+#: erpnext/stock/doctype/warehouse/warehouse.py:122
+msgid "Warning: Account changed for warehouse"
+msgstr "Avertissement : le compte a été modifié pour l’entrepôt"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:75
+msgid "Warning: This action cannot be undone!"
+msgstr "Avertissement : cette action ne peut pas être annulée !"
+
+#: erpnext/utilities/doctype/video/video.js:7
+msgid "Watch Video"
+msgstr "Regarder la vidéo"
+
+#: erpnext/controllers/accounts_controller.py:191
+msgid "We can see {0} is made against {1}. If you want {1}'s outstanding to be updated, uncheck the '{2}' checkbox."
+msgstr "Nous pouvons voir que {0} est créé pour {1}. Si vous souhaitez que l’encours de {1} soit mis à jour, décochez la case « {2} »."
+
+#: erpnext/public/js/utils/naming_series_dialog.js:95
+msgid "Week of the year"
+msgstr "Semaine de l’année"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:82
+msgid "What will be deleted:"
+msgstr "Que sera-t-il supprimé :"
+
+#. Description of the 'Disable Transaction Threshold' (Check) field in DocType
+#. 'Tax Withholding Category'
+#: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.json
+msgid "When checked, only cumulative threshold will be applied"
+msgstr "Lorsque cette case est cochée, seul le seuil cumulatif sera appliqué"
+
+#. Description of the 'Disable Cumulative Threshold' (Check) field in DocType
+#. 'Tax Withholding Category'
+#: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.json
+msgid "When checked, only transaction threshold will be applied for transaction individually"
+msgstr "Lorsque cette case est cochée, seul le seuil par transaction sera appliqué à chaque transaction"
+
+#. Description of the 'Use Posting Datetime for Naming Documents' (Check) field
+#. in DocType 'Global Defaults'
+#: erpnext/setup/doctype/global_defaults/global_defaults.json
+msgid "When checked, the system will use the posting datetime of the document for naming the document instead of the creation datetime of the document."
+msgstr "Lorsque cette case est cochée, le système utilise la date et l’heure de comptabilisation du document pour le nommer, au lieu de sa date et de son heure de création."
+
+#. Description of the 'Enable cut-off date on creating bulk Delivery Notes'
+#. (Check) field in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "When enabled, it adds a cutoff date filter to Delivery Notes created in bulk from Sales Orders. This allows you to process orders only with a transaction date up to the specified cutoff date, which is useful for period-end processing and batch fulfillment."
+msgstr "Lorsqu’elle est activée, cette option ajoute un filtre de date limite aux bons de livraison créés en masse à partir de commandes clients. Elle permet de traiter uniquement les commandes dont la date de transaction est antérieure ou égale à la date limite indiquée, ce qui est utile pour la clôture de période et le traitement par lots."
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:304
+msgid "When there are multiple finished goods ({0}) in a Repack stock entry, the basic rate for all finished goods must be set manually. To set rate manually, enable the checkbox 'Set Basic Rate Manually' in the respective finished good row."
+msgstr "Lorsqu’il y a plusieurs produits finis ({0}) dans un mouvement de stock de reconditionnement, le taux de base de tous les produits finis doit être défini manuellement. Pour définir le taux manuellement, activez la case « Définir le taux de base manuellement » dans la ligne du produit fini concerné."
+
+#. Label of the withholding_date (Date) field in DocType 'Tax Withholding
+#. Entry'
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Withholding Date"
+msgstr "Date de retenue à la source"
+
+#: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:278
+msgid "Withholding Document"
+msgstr "Document de retenue à la source"
+
+#. Label of the withholding_name (Dynamic Link) field in DocType 'Tax
+#. Withholding Entry'
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Withholding Document Name"
+msgstr "Nom du document de retenue à la source"
+
+#. Label of the withholding_doctype (Link) field in DocType 'Tax Withholding
+#. Entry'
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Withholding Document Type"
+msgstr "Type de document de retenue à la source"
+
+#. Label of a chart in the CRM Workspace
+#: erpnext/crm/workspace/crm/crm.json
+msgid "Won Opportunities"
+msgstr "Opportunités gagnées"
+
+#. Label of a number card in the CRM Workspace
+#: erpnext/crm/workspace/crm/crm.json
+msgid "Won Opportunity (Last 1 Month)"
+msgstr "Opportunité gagnée (dernier mois)"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:915
+msgid "Work Order Mismatch"
+msgstr "Écart d’ordre de fabrication"
+
+#. Description of a report in the Onboarding Step 'View Work Order Summary
+#. Report'
+#: erpnext/manufacturing/onboarding_step/view_work_order_summary_report/view_work_order_summary_report.json
+msgid "Work Order Summary Report"
+msgstr "Rapport du résumé de l’ordre de fabrication"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:2386
+msgid "Work Order {0} has no produced qty"
+msgstr "L’ordre de fabrication {0} n’a aucune quantité produite"
+
+#: erpnext/public/js/utils/naming_series_dialog.js:92
+msgid "Year in 2 digits"
+msgstr "Année sur 2 chiffres"
+
+#: erpnext/public/js/utils/naming_series_dialog.js:91
+msgid "Year in 4 digits"
+msgstr "Année sur 4 chiffres"
+
+#: erpnext/public/js/utils/naming_series_dialog.js:87
+msgid "You can also use variables in the series name by putting them between (.) dots"
+msgstr "Vous pouvez également utiliser des variables dans le nom de la série en les plaçant entre des points (.)"
+
+#: erpnext/controllers/accounts_controller.py:212
+msgid "You can use {0} to reconcile against {1} later."
+msgstr "Vous pouvez utiliser {0} pour effectuer ultérieurement un rapprochement avec {1}."
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:167
+msgid "You cannot outward following {0} as either they are Delivered, Inactive or located in a different warehouse."
+msgstr "Vous ne pouvez pas sortir les éléments suivants {0}, car ils ont été livrés, sont inactifs ou se trouvent dans un autre entrepôt."
+
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:580
+msgid "You do not have permission to edit this document"
+msgstr "Vous n’avez pas l’autorisation de modifier ce document"
+
+#: erpnext/controllers/accounts_controller.py:4425
+msgid "You don't have permission to create a Company Address. Please contact your System Manager."
+msgstr "Vous n’avez pas l’autorisation de créer une adresse de société. Veuillez contacter votre administrateur système."
+
+#: erpnext/controllers/accounts_controller.py:4405
+msgid "You don't have permission to update Company details. Please contact your System Manager."
+msgstr "Vous n’avez pas l’autorisation de mettre à jour les détails de la société. Veuillez contacter votre administrateur système."
+
+#: erpnext/controllers/accounts_controller.py:4399
+msgid "You don't have permission to update this document. Please contact your System Manager."
+msgstr "Vous n’avez pas l’autorisation de mettre à jour ce document. Veuillez contacter votre administrateur système."
+
+#. Label of the section_break_zero_qty (Section Break) field in DocType
+#. 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Zero-Quantity Line Items"
+msgstr "Lignes d’articles à quantité nulle"
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1589
+msgid "as of {0}"
+msgstr "au {0}"
+
+#: erpnext/public/js/utils/naming_series_dialog.js:97
+msgid "fieldname on the document e.g."
+msgstr "nom du champ dans le document, par ex."
+
+#: erpnext/public/js/utils/naming_series_dialog.js:247
+msgid "{0} Naming Series"
+msgstr "Série de numérotation de {0}"
+
+#: erpnext/controllers/trends.py:66
+msgid "{0} can be either {1} or {2}."
+msgstr "{0} peut être {1} ou {2}."
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:452
+msgid "{0} is a child table and will be deleted automatically with its parent"
+msgstr "La table enfant {0} sera automatiquement supprimée avec son parent"
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1813
+msgid "{0} is not a CSV file."
+msgstr "{0} n’est pas un fichier CSV."
+
+#: erpnext/accounts/report/budget_variance_report/budget_variance_report.py:419
+msgid "{0} is not a valid Accounting Dimension."
+msgstr "{0} n’est pas une dimension comptable valide."
+
+#: erpnext/stock/utils.py:133
+msgid "{0} is not a valid {1} fieldname."
+msgstr "{0} n’est pas un nom de champ {1} valide."
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:543
+msgid "{0} items disassembled"
+msgstr "{0} articles désassemblés"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:511
+msgid "{0} items returned"
+msgstr "{0} articles retournés"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:514
+msgid "{0} items to return"
+msgstr "{0} articles à retourner"
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:1078
+msgid "{0} units of Item {1} is not available in any of the warehouses. Other Pick Lists exist for this item."
+msgstr "La quantité {0} de l'article {1} n'est disponible dans aucun entrepôt. D'autres listes de prélèvement existent pour cet article."
+
+#: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:276
+msgid "{0} {1} not allowed to be reposted. You can enable it by adding it '{2}' table in {3}."
+msgstr "La recomptabilisation de {0} {1} n'est pas autorisée. Vous pouvez l'activer en l'ajoutant à la table « {2} » dans {3}."
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:523
+msgid "{0}: Child table (auto-deleted with parent)"
+msgstr "{0} : table enfant (supprimée automatiquement avec le parent)"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:518
+msgid "{0}: Not found"
+msgstr "{0} : introuvable"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:514
+msgid "{0}: Protected DocType"
+msgstr "{0} : type de document protégé"
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:528
+msgid "{0}: Virtual DocType (no database table)"
+msgstr "{0} : type de document virtuel (aucune table de base de données)"
+
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1400
+msgid "{0}: {1} does not exist"
+msgstr "{0} : {1} n'existe pas"
